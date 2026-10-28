@@ -2,7 +2,7 @@
 // @name         Blockfacho auto-block (X)
 // @namespace    https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
-// @version      0.7.0
+// @version      0.7.1
 // @description  Récupère la liste vérifiée de blockfacho (copie GitHub mise à jour toutes les 6 h) et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest
@@ -150,7 +150,7 @@
     return get('queue', []).filter(a => a.n >= from && !d.has(a.handle.toLowerCase()));
   };
   $('bf-dry').checked = get('dry', true);
-  $('bf-dry').onchange = e => set('dry', e.target.checked);
+  $('bf-dry').onchange = e => { set('dry', e.target.checked); showQueue(); };
   // empty means "from the start", so the placeholder shows that a number or an @ works
   $('bf-from').value = get('from', 1) > 1 ? get('from', 1) : '';
   $('bf-from').onchange = e => {
@@ -173,7 +173,8 @@
     $('bf-start').disabled = !q.length;
     const last = get('last', 0) ? ` Dernier bloqué : n° ${get('last', 0)}.` : '';
     status(get('running', false) ? `En cours… ${q.length} restants.${last}` :
-      q.length ? `${q.length} comptes à bloquer (${done().size} déjà faits).${last} Vérifie la liste avant de démarrer.` :
+      q.length ? `${q.length} comptes à bloquer (${done().size} déjà faits).${last} Vérifie la liste avant de démarrer.` +
+        (get('dry', true) ? ' « Test » est coché : rien ne sera bloqué.' : '') :
       get('queue', []).length ? `Rien à bloquer à partir du n° ${get('from', 1)} (${done().size} comptes déjà faits) 🎉` : 'Clique « Charger la liste ».');
   }
 
@@ -232,12 +233,13 @@
 
   // Runs on every page load while a run is active.
   async function step() {
-    const target = current();
+    const target = current(), dry = get('dry', true);
     if (!target) return stop('Tout est bloqué 🎉');
     // Never re-navigate on mismatch: X redirects to login/limit pages and that would loop forever.
     if (location.pathname.split('/')[1].toLowerCase() !== target.handle.toLowerCase())
       return stop(`X a redirigé vers ${location.pathname} au lieu de @${target.handle} (déconnecté ? limite ?). Arrêt.`);
-    status(`@${target.handle}…`);
+    // a reporter thought the script was broken while Test was still checked
+    status(`${dry ? 'TEST, rien n\'est bloqué : ' : ''}@${target.handle}…`);
 
     const first = await waitFor(`${SEL.more}, ${SEL.unblock}, ${SEL.emptyState}`);
     await sleep(500);  // the unblock button can render just after the "more" button

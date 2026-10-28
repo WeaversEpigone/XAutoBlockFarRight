@@ -2,8 +2,8 @@
 // @name         Blockfacho auto-block (X)
 // @namespace    https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
-// @version      0.5.0
-// @description  Récupère la liste vérifiée de blockfacho et bloque les comptes X un par un, dans ta propre session.
+// @version      0.6.0
+// @description  Récupère la liste vérifiée de blockfacho (copie GitHub mise à jour toutes les 6 h) et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
@@ -18,8 +18,8 @@
   'use strict';
 
   const SITE = 'https://blockfacho.readymoss8.chatgpt.site';
-  // copy of the list kept by the repo's GitHub Action, used when the site's API is down
-  const FALLBACK = 'https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main';
+  // copy of the list kept by the repo's GitHub Action (every 6 h); main source, the live site is the backup
+  const REPO_LIST = 'https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main';
   const DELAY_MS = [4000, 8000];     // random pause between two profiles; X locks accounts that block too fast
   // X's own test ids; if X renames them the script stops instead of clicking blindly
   const SEL = {
@@ -47,7 +47,8 @@
 
   function fetchText(path, base = SITE) {
     return new Promise((resolve, reject) => GM_xmlhttpRequest({
-      method: 'GET', url: base + path, headers: { 'Cache-Control': 'no-store' },
+      method: 'GET', url: base + path, headers: { 'Cache-Control': 'no-store' }, timeout: 20000,
+      ontimeout: () => reject(new Error(path + ' timeout')),
       onload: r => r.status === 200 ? resolve(r.responseText) : reject(new Error(path + ' ' + r.status)),
       onerror: () => reject(new Error(path + ' unreachable')),
     }));
@@ -119,6 +120,7 @@
       <button id="bf-start" disabled>Démarrer</button>
       <button id="bf-stop">Stop</button>
     </div>
+    <button id="bf-reset" style="font-size:11px">Remettre à zéro (oublie les comptes faits)</button>
     <details><summary>Voir les comptes</summary><ol id="bf-list" style="padding-left:20px"></ol></details>`;
   document.body.appendChild(panel);
   const $ = id => panel.querySelector('#' + id);
@@ -154,7 +156,7 @@
     const last = get('last', 0) ? ` Dernier bloqué : n° ${get('last', 0)}.` : '';
     status(get('running', false) ? `En cours… ${q.length} restants.${last}` :
       q.length ? `${q.length} comptes à bloquer (${done().size} déjà faits).${last} Vérifie la liste avant de démarrer.` :
-      get('queue', []).length ? `Rien à bloquer à partir du n° ${get('from', 1)} 🎉` : 'Clique « Charger la liste ».');
+      get('queue', []).length ? `Rien à bloquer à partir du n° ${get('from', 1)} (${done().size} comptes déjà faits) 🎉` : 'Clique « Charger la liste ».');
   }
 
   // Keep the old order and append new accounts at the end, so numbers stay stable and new ones come last.
@@ -171,10 +173,10 @@
     try {
       const before = get('queue', []).length;
       let list, note = '';
-      try { list = await loadHandles(); }
+      try { list = parseFallback(await fetchText('/list/x.json', REPO_LIST)); }
       catch (e) {
-        list = parseFallback(await fetchText('/list/x.json', FALLBACK));
-        note = `Site indisponible (${e.message}) : copie GitHub utilisée (mise à jour toutes les 6 h). `;
+        list = await loadHandles();
+        note = `Copie GitHub indisponible (${e.message}) : liste lue directement sur le site. `;
       }
       set('queue', mergeQueue(list));
       showQueue();
@@ -185,6 +187,12 @@
   };
   $('bf-start').onclick = () => { set('running', true); set('runCount', 0); next(); };
   $('bf-stop').onclick = () => { set('running', false); showQueue(); };
+  $('bf-reset').onclick = () => {
+    if (!confirm('Oublier les comptes déjà faits et repartir du n° 1 ? (Ça ne débloque personne sur X.)')) return;
+    set('running', false); set('done', []); set('last', 0); set('from', 1);
+    $('bf-from').value = 1;
+    showQueue();
+  };
 
   function stop(msg) { set('running', false); showQueue(); status(msg); }
 
@@ -216,8 +224,9 @@
     if (!get('running', false)) return showQueue();
     if (!first) return stop(`Profil @${target.handle} pas chargé (X a changé ? limite atteinte ?). Arrêt.`);
 
-    if (document.querySelector(SEL.unblock) || document.querySelector(SEL.emptyState)) {
-      if (!get('dry', true)) markDone(target);  // already blocked, or account gone/suspended
+    const gone = document.querySelector(SEL.emptyState) && !document.querySelector(SEL.more);
+    if (document.querySelector(SEL.unblock) || gone) {
+      if (!get('dry', true)) markDone(target);  // already blocked, or account deleted/suspended
     } else {
       document.querySelector(SEL.more).click();
       const item = await waitFor(SEL.block, 5000);

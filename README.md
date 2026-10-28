@@ -3,7 +3,7 @@
 Bloque automatiquement sur X tous les comptes de la liste vérifiée [blockfacho](https://blockfacho.readymoss8.chatgpt.site/site), depuis ton navigateur, avec ton compte.
 
 - **Aucun mot de passe, aucun token.** Le script clique sur le vrai bouton « Bloquer » de X, dans ta session.
-- **Liste à jour.** Elle est récupérée en direct sur le site, avec les ajouts et les retraits validés.
+- **Liste à jour.** Le script lit la copie de ce dépôt, mise à jour depuis le site toutes les 6 h (ajouts et retraits validés). Si GitHub ne répond pas, il lit le site directement.
 - **Reprend où tu t'es arrêté.** Les comptes déjà bloqués sont sautés, et les nouveaux arrivent à la fin.
 
 ## Installer (2 min)
@@ -26,13 +26,14 @@ Sur [x.com](https://x.com), connecté, un panneau apparaît en bas à droite.
 | Changer de navigateur ou d'ordi | Note le « Dernier bloqué : n° X » et mets X + 1 dans **Commencer à**. |
 | Reprendre à partir d'un compte précis | Tape son `@` (ou colle le lien du profil) dans **Commencer à**. |
 | Reprendre après un arrêt | **Démarrer** suffit, rien n'est refait. |
+| Tout recommencer | **Remettre à zéro** oublie les comptes faits (ça ne débloque personne). |
 
 > [!WARNING]
 > X interdit l'automatisation hors de son API. Bloquer des centaines de comptes d'affilée peut provoquer une limite temporaire ou un verrouillage du compte. Si le script s'arrête avec un message de redirection ou de limite, attends quelques heures avant de relancer. Tu l'utilises à tes risques.
 
 ## La liste dans ce dépôt
 
-[`list/x.txt`](list/x.txt) et [`list/x.json`](list/x.json) sont une copie de la liste, mise à jour toutes les 6 h par [une GitHub Action](.github/workflows/update-list.yml). L'historique des commits montre qui a été ajouté ou retiré, et quand. Le script lit la version en direct du site, et se rabat sur cette copie si le site est indisponible.
+[`list/x.txt`](list/x.txt) et [`list/x.json`](list/x.json) sont une copie de la liste, mise à jour toutes les 6 h par [une GitHub Action](.github/workflows/update-list.yml). L'historique des commits montre qui a été ajouté ou retiré, et quand. C'est cette copie que le script charge. Si le site est en panne, l'Action garde la dernière liste valide.
 
 ## Si ça casse
 

@@ -6,7 +6,7 @@ const code = pick('const RESERVED', '  // --- panel ---');
 const dir = process.argv[2];
 const files = { '/accounts.js': 'accounts.js', '/api/accounts': 'accounts' };
 const fetchText = async p => fs.readFileSync(path.join(dir, files[p]), 'utf8');
-const { loadHandles, handleFromUrl, parseFallback } = new Function('fetchText', code + '; return { loadHandles, handleFromUrl, parseFallback };')(fetchText);
+const { loadHandles, handleFromUrl, parseFallback, resolveStart } = new Function('fetchText', code + '; return { loadHandles, handleFromUrl, parseFallback, resolveStart };')(fetchText);
 
 (async () => {
   const list = await loadHandles();
@@ -42,4 +42,14 @@ const { loadHandles, handleFromUrl, parseFallback } = new Function('fetchText', 
   assert.throws(() => parseFallback('{"handle":"x"}'));
   assert.throws(() => parseFallback('[]'));
   console.log('ok parseFallback', repoList.length);
+
+  // resolveStart: number, @handle, bare handle, profile link; unknown handle -> null
+  const q = [{ handle: 'MLP_officiel', n: 1 }, { handle: 'J_Bardella', n: 7 }];
+  assert.strictEqual(resolveStart('42', q), 42);
+  assert.strictEqual(resolveStart('0', q), 1);
+  assert.strictEqual(resolveStart('@j_bardella', q), 7);
+  assert.strictEqual(resolveStart(' J_Bardella ', q), 7);
+  assert.strictEqual(resolveStart('https://x.com/J_Bardella/with_replies', q), 7);
+  assert.strictEqual(resolveStart('@nobody', q), null);
+  console.log('ok resolveStart');
 })().catch(e => { console.error(e); process.exit(1); });

@@ -23,7 +23,8 @@ Sur [x.com](https://x.com), connecté, un panneau apparaît en bas à droite.
 | Besoin | Que faire |
 | --- | --- |
 | La liste a grandi | **Charger la liste** puis **Démarrer** : seuls les nouveaux comptes restent à faire. |
-| Changer de navigateur ou d'ordi | Note le « Dernier bloqué : n° X » et mets X + 1 dans **Commencer au n°**. |
+| Changer de navigateur ou d'ordi | Note le « Dernier bloqué : n° X » et mets X + 1 dans **Commencer à**. |
+| Reprendre à partir d'un compte précis | Tape son `@` (ou colle le lien du profil) dans **Commencer à**. |
 | Reprendre après un arrêt | **Démarrer** suffit, rien n'est refait. |
 
 > [!WARNING]

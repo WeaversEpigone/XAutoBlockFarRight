@@ -2,7 +2,7 @@
 // @name         Blockfacho auto-block (X)
 // @namespace    https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
-// @version      0.4.1
+// @version      0.5.0
 // @description  Récupère la liste vérifiée de blockfacho et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest
@@ -96,6 +96,15 @@
     return out;
   }
 
+  // "Commencer à" accepts a number or an @handle (also a pasted profile link); returns the queue number or null.
+  function resolveStart(input, queue) {
+    const v = String(input).trim();
+    if (/^\d+$/.test(v)) return Math.max(1, parseInt(v, 10));
+    const h = (handleFromUrl(v) || v.replace(/^@/, '')).toLowerCase();
+    const a = queue.find(x => x.handle.toLowerCase() === h);
+    return a ? a.n : null;
+  }
+
   // --- panel ---
   const panel = document.createElement('div');
   panel.style.cssText = 'position:fixed;bottom:16px;right:16px;z-index:99999;width:300px;max-height:60vh;overflow:auto;' +
@@ -104,7 +113,7 @@
     <b>Blockfacho auto-block</b>
     <div id="bf-status" style="margin:6px 0">…</div>
     <label><input type="checkbox" id="bf-dry"> Test (ne bloque pas, vérifie juste les boutons)</label><br>
-    <label>Commencer au n° <input type="number" id="bf-from" min="1" style="width:70px"></label>
+    <label>Commencer à <input type="text" id="bf-from" placeholder="n° ou @compte" style="width:120px"></label>
     <div style="margin:8px 0;display:flex;gap:6px">
       <button id="bf-load">Charger la liste</button>
       <button id="bf-start" disabled>Démarrer</button>
@@ -124,7 +133,13 @@
   $('bf-dry').checked = get('dry', true);
   $('bf-dry').onchange = e => set('dry', e.target.checked);
   $('bf-from').value = get('from', 1);
-  $('bf-from').onchange = e => { set('from', Math.max(1, parseInt(e.target.value, 10) || 1)); showQueue(); };
+  $('bf-from').onchange = e => {
+    const n = e.target.value.trim() ? resolveStart(e.target.value, get('queue', [])) : 1;
+    if (n === null) return status(`${e.target.value.trim()} n'est pas dans la liste. Charge la liste ou vérifie l'orthographe.`);
+    set('from', n);
+    e.target.value = n;
+    showQueue();
+  };
 
   function showQueue() {
     const q = todo();

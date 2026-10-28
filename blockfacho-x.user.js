@@ -2,7 +2,7 @@
 // @name         Blockfacho auto-block (X)
 // @namespace    https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
-// @version      0.7.1
+// @version      0.8.0
 // @description  Récupère la liste vérifiée de blockfacho (copie GitHub mise à jour toutes les 6 h) et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest
@@ -149,7 +149,7 @@
     const d = done(), from = get('from', 1);
     return get('queue', []).filter(a => a.n >= from && !d.has(a.handle.toLowerCase()));
   };
-  $('bf-dry').checked = get('dry', true);
+  $('bf-dry').checked = get('dry', false);
   $('bf-dry').onchange = e => { set('dry', e.target.checked); showQueue(); };
   // empty means "from the start", so the placeholder shows that a number or an @ works
   $('bf-from').value = get('from', 1) > 1 ? get('from', 1) : '';
@@ -174,7 +174,7 @@
     const last = get('last', 0) ? ` Dernier bloqué : n° ${get('last', 0)}.` : '';
     status(get('running', false) ? `En cours… ${q.length} restants.${last}` :
       q.length ? `${q.length} comptes à bloquer (${done().size} déjà faits).${last} Vérifie la liste avant de démarrer.` +
-        (get('dry', true) ? ' « Test » est coché : rien ne sera bloqué.' : '') :
+        (get('dry', false) ? ' « Test » est coché : rien ne sera bloqué.' : '') :
       get('queue', []).length ? `Rien à bloquer à partir du n° ${get('from', 1)} (${done().size} comptes déjà faits) 🎉` : 'Clique « Charger la liste ».');
   }
 
@@ -219,10 +219,10 @@
 
   const DRY_COUNT = 3;
   // Dry runs mark nothing done, so they walk the queue by index instead.
-  const current = () => todo()[get('dry', true) ? get('runCount', 0) : 0];
+  const current = () => todo()[get('dry', false) ? get('runCount', 0) : 0];
 
   function next() {
-    const dry = get('dry', true), n = get('runCount', 0);
+    const dry = get('dry', false), n = get('runCount', 0);
     if (dry && n >= DRY_COUNT) return stop(`Test OK sur ${n} profils : les boutons sont trouvés. Décoche « Test » puis « Démarrer ».`);
     const target = current();
     if (!target) return stop('Tout est bloqué 🎉');
@@ -233,7 +233,7 @@
 
   // Runs on every page load while a run is active.
   async function step() {
-    const target = current(), dry = get('dry', true);
+    const target = current(), dry = get('dry', false);
     if (!target) return stop('Tout est bloqué 🎉');
     // Never re-navigate on mismatch: X redirects to login/limit pages and that would loop forever.
     if (location.pathname.split('/')[1].toLowerCase() !== target.handle.toLowerCase())
@@ -248,12 +248,12 @@
 
     const gone = document.querySelector(SEL.emptyState) && !document.querySelector(SEL.more);
     if (document.querySelector(SEL.unblock) || gone) {
-      if (!get('dry', true)) markDone(target);  // already blocked, or account deleted/suspended
+      if (!get('dry', false)) markDone(target);  // already blocked, or account deleted/suspended
     } else {
       document.querySelector(SEL.more).click();
       const item = await waitFor(SEL.block, 5000);
       if (!item) return stop('Bouton « Bloquer » introuvable dans le menu. Arrêt pour ne rien casser.');
-      if (get('dry', true)) {
+      if (get('dry', false)) {
         document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
       } else {
         item.click();

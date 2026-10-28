@@ -9,8 +9,9 @@ Bloque automatiquement sur X tous les comptes de la liste vérifiée [blockfacho
 Sur [x.com](https://x.com), connecté, un panneau apparaît en bas à droite.
 
 1. **Charger la liste**, puis ouvre « Voir les comptes » pour vérifier qui sera bloqué.
-2. **Test** coché, puis **Démarrer** : le script vérifie 3 profils sans rien bloquer.
-3. Décoche **Test**, puis **Démarrer**. Ça tourne jusqu'à la fin de la liste ou jusqu'à **Stop**.
+2. **Démarrer**. Ça tourne jusqu'à la fin de la liste ou jusqu'à **Stop**.
+
+Pour essayer sans rien bloquer : coche **Test** avant **Démarrer**, le script vérifie 3 profils puis s'arrête.
 
 **Commencer à** accepte un numéro de la liste, un `@compte` ou un lien de profil.
 

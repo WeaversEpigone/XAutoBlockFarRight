@@ -8,8 +8,10 @@ const code = src.slice(src.indexOf('const RESERVED'), src.indexOf('  // --- pane
 
 const fetchText = async p => {
   // no custom user-agent: the site answers 503 to unknown ones
-  const r = await fetch(SITE + p, { headers: { 'cache-control': 'no-store' } });
-  if (!r.ok) throw new Error(`${p} HTTP ${r.status}`);
+  let r;
+  try { r = await fetch(SITE + p, { headers: { 'cache-control': 'no-store' }, signal: AbortSignal.timeout(30000) }); }
+  catch (e) { throw Object.assign(new Error(`${p} unreachable (${e.message})`), { siteDown: true }); }
+  if (!r.ok) throw Object.assign(new Error(`${p} HTTP ${r.status}`), { siteDown: r.status >= 500 || r.status === 429 });
   return r.text();
 };
 const { loadHandles } = new Function('fetchText', code + '; return { loadHandles };')(fetchText);
@@ -26,4 +28,9 @@ const { loadHandles } = new Function('fetchText', code + '; return { loadHandles
   fs.writeFileSync(path.join(root, 'list', 'x.json'), JSON.stringify(list, null, 2) + '\n');
   fs.writeFileSync(path.join(root, 'list', 'x.txt'), handles.join('\n') + '\n');
   console.log(`wrote ${list.length} handles`);
-})().catch(e => { console.error(e.message); process.exit(1); });
+})().catch(e => {
+  // site outage: keep the last good list and leave the run green; anything else is a real failure
+  if (e.siteDown) { console.log(`::warning::blockfacho unavailable, list kept as is: ${e.message}`); return; }
+  console.error(e.message);
+  process.exit(1);
+});

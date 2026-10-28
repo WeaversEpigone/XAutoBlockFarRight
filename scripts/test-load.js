@@ -6,7 +6,7 @@ const code = pick('const RESERVED', '  // --- panel ---');
 const dir = process.argv[2];
 const files = { '/accounts.js': 'accounts.js', '/api/accounts': 'accounts' };
 const fetchText = async p => fs.readFileSync(path.join(dir, files[p]), 'utf8');
-const { loadHandles, handleFromUrl } = new Function('fetchText', code + '; return { loadHandles, handleFromUrl };')(fetchText);
+const { loadHandles, handleFromUrl, parseFallback } = new Function('fetchText', code + '; return { loadHandles, handleFromUrl, parseFallback };')(fetchText);
 
 (async () => {
   const list = await loadHandles();
@@ -34,4 +34,12 @@ const { loadHandles, handleFromUrl } = new Function('fetchText', code + '; retur
   queue = mergeQueue([{ handle: 'D' }, { handle: 'c' }, { handle: 'A' }]);
   assert.deepStrictEqual(queue.map(a => a.handle + a.n), ['A1', 'C3', 'D4']);
   console.log('ok mergeQueue');
+
+  // parseFallback: the repo's own list/x.json parses whole; junk entries are dropped
+  const repoList = parseFallback(fs.readFileSync(path.join(__dirname, '..', 'list', 'x.json'), 'utf8'));
+  assert(repoList.length > 300, 'repo list too small: ' + repoList.length);
+  assert.deepStrictEqual(parseFallback('[{"handle":"ok_1"},{"handle":"i"},{"handle":"a b"},null,{"name":"x"}]'), [{ name: 'ok_1', handle: 'ok_1' }]);
+  assert.throws(() => parseFallback('{"handle":"x"}'));
+  assert.throws(() => parseFallback('[]'));
+  console.log('ok parseFallback', repoList.length);
 })().catch(e => { console.error(e); process.exit(1); });

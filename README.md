@@ -31,7 +31,7 @@ Sur [x.com](https://x.com), connecté, un panneau apparaît en bas à droite.
 
 ## La liste dans ce dépôt
 
-[`list/x.txt`](list/x.txt) et [`list/x.json`](list/x.json) sont une copie de la liste, mise à jour toutes les 6 h par [une GitHub Action](.github/workflows/update-list.yml). L'historique des commits montre qui a été ajouté ou retiré, et quand. Le script, lui, lit toujours la version en direct du site.
+[`list/x.txt`](list/x.txt) et [`list/x.json`](list/x.json) sont une copie de la liste, mise à jour toutes les 6 h par [une GitHub Action](.github/workflows/update-list.yml). L'historique des commits montre qui a été ajouté ou retiré, et quand. Le script lit la version en direct du site, et se rabat sur cette copie si le site est indisponible.
 
 ## Si ça casse
 

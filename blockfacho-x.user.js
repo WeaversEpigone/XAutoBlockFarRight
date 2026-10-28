@@ -4,13 +4,14 @@
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @downloadURL  https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main/blockfacho-x.user.js
 // @updateURL    https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main/blockfacho-x.user.js
-// @version      0.3.0
+// @version      0.4.0
 // @description  Récupère la liste vérifiée de blockfacho et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @connect      blockfacho.readymoss8.chatgpt.site
+// @connect      raw.githubusercontent.com
 // @run-at       document-idle
 // @license      MIT
 // ==/UserScript==
@@ -19,6 +20,8 @@
   'use strict';
 
   const SITE = 'https://blockfacho.readymoss8.chatgpt.site';
+  // copy of the list kept by the repo's GitHub Action, used when the site's API is down
+  const FALLBACK = 'https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main';
   const DELAY_MS = [4000, 8000];     // random pause between two profiles; X locks accounts that block too fast
   // X's own test ids; if X renames them the script stops instead of clicking blindly
   const SEL = {
@@ -44,9 +47,9 @@
     });
   }
 
-  function fetchText(path) {
+  function fetchText(path, base = SITE) {
     return new Promise((resolve, reject) => GM_xmlhttpRequest({
-      method: 'GET', url: SITE + path, headers: { 'Cache-Control': 'no-store' },
+      method: 'GET', url: base + path, headers: { 'Cache-Control': 'no-store' },
       onload: r => r.status === 200 ? resolve(r.responseText) : reject(new Error(path + ' ' + r.status)),
       onerror: () => reject(new Error(path + ' unreachable')),
     }));
@@ -82,6 +85,16 @@
       seen.add(h);
       out.push(a);
     }
+    return out;
+  }
+
+  // The fallback file comes from the network too: keep only well-formed entries.
+  function parseFallback(text) {
+    const list = JSON.parse(text);
+    if (!Array.isArray(list)) throw new Error('copie GitHub illisible');
+    const out = list.filter(a => a && typeof a.handle === 'string' && /^[A-Za-z0-9_]{1,15}$/.test(a.handle) && !RESERVED.has(a.handle.toLowerCase()))
+      .map(a => ({ name: String(a.name || a.handle).slice(0, 100), handle: a.handle }));
+    if (!out.length) throw new Error('copie GitHub vide');
     return out;
   }
 
@@ -144,10 +157,17 @@
     status('Chargement…');
     try {
       const before = get('queue', []).length;
-      set('queue', mergeQueue(await loadHandles()));
+      let list, note = '';
+      try { list = await loadHandles(); }
+      catch (e) {
+        list = parseFallback(await fetchText('/list/x.json', FALLBACK));
+        note = `Site indisponible (${e.message}) : copie GitHub utilisée (mise à jour toutes les 6 h). `;
+      }
+      set('queue', mergeQueue(list));
       showQueue();
       const added = get('queue', []).length - before;
-      if (before && added > 0) status(`${added} nouveaux comptes ajoutés à la fin. ` + $('bf-status').textContent);
+      if (before && added > 0) note += `${added} nouveaux comptes ajoutés à la fin. `;
+      if (note) status(note + $('bf-status').textContent);
     } catch (e) { status('Erreur : ' + e.message); }
   };
   $('bf-start').onclick = () => { set('running', true); set('runCount', 0); next(); };

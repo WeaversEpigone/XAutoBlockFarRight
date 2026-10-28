@@ -2,7 +2,7 @@
 // @name         Blockfacho auto-block (X)
 // @namespace    https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
-// @version      0.6.1
+// @version      0.6.2
 // @description  Récupère la liste vérifiée de blockfacho (copie GitHub mise à jour toutes les 6 h) et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest
@@ -134,12 +134,13 @@
   };
   $('bf-dry').checked = get('dry', true);
   $('bf-dry').onchange = e => set('dry', e.target.checked);
-  $('bf-from').value = get('from', 1);
+  // empty means "from the start", so the placeholder shows that a number or an @ works
+  $('bf-from').value = get('from', 1) > 1 ? get('from', 1) : '';
   $('bf-from').onchange = e => {
     const n = e.target.value.trim() ? resolveStart(e.target.value, get('queue', [])) : 1;
     if (n === null) return status(`${e.target.value.trim()} n'est pas dans la liste. Charge la liste ou vérifie l'orthographe.`);
     set('from', n);
-    e.target.value = n;
+    e.target.value = n > 1 ? n : '';
     showQueue();
   };
 
@@ -192,7 +193,7 @@
   $('bf-reset').onclick = () => {
     if (!confirm('Oublier la liste et les comptes déjà faits, puis repartir du n° 1 ? (Ça ne débloque personne sur X.)')) return;
     set('running', false); set('done', []); set('last', 0); set('from', 1); set('queue', []);
-    $('bf-from').value = 1;
+    $('bf-from').value = '';
     showQueue();
   };
 

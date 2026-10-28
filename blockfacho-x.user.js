@@ -2,7 +2,7 @@
 // @name         Blockfacho auto-block (X)
 // @namespace    https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
-// @version      0.6.0
+// @version      0.6.1
 // @description  Récupère la liste vérifiée de blockfacho (copie GitHub mise à jour toutes les 6 h) et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest
@@ -165,7 +165,9 @@
     const kept = get('queue', []).filter(a => byHandle.has(a.handle.toLowerCase()));
     const known = new Set(kept.map(a => a.handle.toLowerCase()));
     let n = kept.reduce((m, a) => Math.max(m, a.n || 0), 0);
-    return [...kept, ...fresh.filter(a => !known.has(a.handle.toLowerCase())).map(a => ({ ...a, n: ++n }))];
+    // queues saved by v0.1/v0.2 have no numbers, and todo() would hide them all
+    const numbered = kept.map(a => a.n ? a : { ...a, n: ++n });
+    return [...numbered, ...fresh.filter(a => !known.has(a.handle.toLowerCase())).map(a => ({ ...a, n: ++n }))];
   }
 
   $('bf-load').onclick = async () => {
@@ -188,8 +190,8 @@
   $('bf-start').onclick = () => { set('running', true); set('runCount', 0); next(); };
   $('bf-stop').onclick = () => { set('running', false); showQueue(); };
   $('bf-reset').onclick = () => {
-    if (!confirm('Oublier les comptes déjà faits et repartir du n° 1 ? (Ça ne débloque personne sur X.)')) return;
-    set('running', false); set('done', []); set('last', 0); set('from', 1);
+    if (!confirm('Oublier la liste et les comptes déjà faits, puis repartir du n° 1 ? (Ça ne débloque personne sur X.)')) return;
+    set('running', false); set('done', []); set('last', 0); set('from', 1); set('queue', []);
     $('bf-from').value = 1;
     showQueue();
   };

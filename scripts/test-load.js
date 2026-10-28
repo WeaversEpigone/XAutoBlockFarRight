@@ -33,6 +33,9 @@ const { loadHandles, handleFromUrl, parseFallback, resolveStart } = new Function
   assert.deepStrictEqual(queue.map(a => a.handle + a.n), ['A1', 'B2', 'C3']);
   queue = mergeQueue([{ handle: 'D' }, { handle: 'c' }, { handle: 'A' }]);
   assert.deepStrictEqual(queue.map(a => a.handle + a.n), ['A1', 'C3', 'D4']);
+  queue = [{ handle: 'A' }, { handle: 'B', n: 5 }];  // v0.1/v0.2 saved queues have no numbers
+  queue = mergeQueue([{ handle: 'A' }, { handle: 'B' }, { handle: 'C' }]);
+  assert.deepStrictEqual(queue.map(a => a.handle + a.n), ['A6', 'B5', 'C7']);
   console.log('ok mergeQueue');
 
   // parseFallback: the repo's own list/x.json parses whole; junk entries are dropped

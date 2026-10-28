@@ -10,7 +10,7 @@ Bloque automatiquement sur X tous les comptes de la liste vérifiée [blockfacho
 
 1. Installe [Tampermonkey](https://www.tampermonkey.net/).
 2. Chrome seulement : `chrome://extensions` → Tampermonkey → **Détails** → active **Autoriser les scripts utilisateur**.
-3. Clique ici : **[installer le script](https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main/blockfacho-x.user.js)**. Tampermonkey propose de l'installer, puis le met à jour tout seul.
+3. Clique ici : **[installer le script](https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main/blockfacho-x.user.js)**. Tampermonkey propose de l'installer, puis le met à jour tout seul depuis l'endroit où tu l'as installé.
 
 ## Utiliser
 

@@ -2,9 +2,7 @@
 // @name         Blockfacho auto-block (X)
 // @namespace    https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
-// @downloadURL  https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main/blockfacho-x.user.js
-// @updateURL    https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main/blockfacho-x.user.js
-// @version      0.4.0
+// @version      0.4.1
 // @description  Récupère la liste vérifiée de blockfacho et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest

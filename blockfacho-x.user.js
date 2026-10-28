@@ -2,7 +2,7 @@
 // @name         Blockfacho auto-block (X)
 // @namespace    https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
-// @version      0.6.2
+// @version      0.7.0
 // @description  Récupère la liste vérifiée de blockfacho (copie GitHub mise à jour toutes les 6 h) et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest
@@ -111,7 +111,11 @@
   panel.style.cssText = 'position:fixed;bottom:16px;right:16px;z-index:99999;width:300px;max-height:60vh;overflow:auto;' +
     'background:#111;color:#eee;font:13px/1.4 system-ui,sans-serif;border:1px solid #444;border-radius:10px;padding:12px';
   panel.innerHTML = `
-    <b>Blockfacho auto-block</b>
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
+      <b>Blockfacho auto-block</b>
+      <button id="bf-toggle" aria-expanded="true" title="Masquer le panneau">–</button>
+    </div>
+    <div id="bf-body">
     <div id="bf-status" style="margin:6px 0">…</div>
     <label><input type="checkbox" id="bf-dry"> Test (ne bloque pas, vérifie juste les boutons)</label><br>
     <label>Commencer à <input type="text" id="bf-from" placeholder="n° ou @compte" style="width:120px"></label>
@@ -121,9 +125,22 @@
       <button id="bf-stop">Stop</button>
     </div>
     <button id="bf-reset" style="font-size:11px">Remettre à zéro (oublie les comptes faits)</button>
-    <details><summary>Voir les comptes</summary><ol id="bf-list" style="padding-left:20px"></ol></details>`;
+    <details><summary>Voir les comptes</summary><ol id="bf-list" style="padding-left:20px"></ol></details>
+    </div>`;
   document.body.appendChild(panel);
   const $ = id => panel.querySelector('#' + id);
+
+  // Collapsed state is remembered across pages; a run keeps going while hidden.
+  function setCollapsed(c) {
+    set('collapsed', c);
+    $('bf-body').hidden = c;
+    panel.style.width = c ? 'auto' : '300px';
+    $('bf-toggle').textContent = c ? '+' : '–';
+    $('bf-toggle').title = c ? 'Afficher le panneau' : 'Masquer le panneau';
+    $('bf-toggle').setAttribute('aria-expanded', String(!c));
+  }
+  $('bf-toggle').onclick = () => setCollapsed(!get('collapsed', false));
+  setCollapsed(get('collapsed', false));
   const status = t => { $('bf-status').textContent = t; };
 
   const done = () => new Set(get('done', []));

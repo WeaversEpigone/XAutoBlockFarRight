@@ -1,4 +1,4 @@
-Bloque automatiquement sur X tous les comptes de la liste vérifiée [blockfacho](https://blockfacho.readymoss8.chatgpt.site/site), depuis ton navigateur, avec ton compte.
+Bloque automatiquement sur X tous les comptes de la liste vérifiée [blockfacho](https://onbloquelextremedroite.fun/), depuis ton navigateur, avec ton compte.
 
 - **Aucun mot de passe, aucun token.** Le script clique sur le vrai bouton « Bloquer » de X, dans ta session.
 - **Liste à jour.** Le script lit une copie de la liste sur GitHub, mise à jour depuis le site toutes les 6 h (ajouts et retraits validés). Si GitHub ne répond pas, il lit le site directement.
@@ -24,7 +24,7 @@ Les règles de X interdisent l'automatisation en dehors de leur API officielle. 
 ## Ce que fait le script
 
 - Il ne tourne que sur `x.com`.
-- Il ne contacte que `raw.githubusercontent.com` (la liste) et `blockfacho.readymoss8.chatgpt.site` (si GitHub ne répond pas).
+- Il ne contacte que `raw.githubusercontent.com` (la liste) et `onbloquelextremedroite.fun` (si GitHub ne répond pas).
 - Il ne lit ni n'envoie aucune donnée de ton compte.
 
 Si X change son interface, le script s'arrête avec un message au lieu de cliquer au hasard.

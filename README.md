@@ -1,6 +1,6 @@
 # Blockfacho auto-block (X)
 
-Bloque automatiquement sur X tous les comptes de la liste vérifiée [blockfacho](https://blockfacho.readymoss8.chatgpt.site/site), depuis ton navigateur, avec ton compte.
+Bloque automatiquement sur X tous les comptes de la liste vérifiée [blockfacho](https://onbloquelextremedroite.fun/), depuis ton navigateur, avec ton compte.
 
 - **Aucun mot de passe, aucun token.** Le script clique sur le vrai bouton « Bloquer » de X, dans ta session.
 - **Liste à jour.** Le script lit la copie de ce dépôt, mise à jour depuis le site toutes les 6 h (ajouts et retraits validés). Si GitHub ne répond pas, il lit le site directement.
@@ -44,7 +44,7 @@ X change parfois son interface. Le script s'arrête alors avec un message au lie
 
 ```bash
 node scripts/update-list.js       # régénère list/ depuis le site
-mkdir -p data && curl -s -o data/accounts.js https://blockfacho.readymoss8.chatgpt.site/accounts.js && curl -s -o data/accounts https://blockfacho.readymoss8.chatgpt.site/api/accounts
+mkdir -p data && curl -s -o data/accounts.js https://onbloquelextremedroite.fun/accounts.js && curl -s -o data/accounts https://onbloquelextremedroite.fun/api/accounts
 node scripts/test-load.js data    # vérifie la fusion de la liste et l'ordre de reprise
 ```
 

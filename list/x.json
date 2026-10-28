@@ -1,47 +1,243 @@
 [
   {
-    "name": "Agnès Marion ن",
+    "name": "Alejandro Nolasco",
+    "handle": "_a_nolasco"
+  },
+  {
+    "name": "Agnès Marion",
     "handle": "_AgnesMarion"
+  },
+  {
+    "name": "Fabrice Robert",
+    "handle": "_fabricerobert"
+  },
+  {
+    "name": "Laura Magné",
+    "handle": "_Laura_Mag"
   },
   {
     "name": "Les Patriotes",
     "handle": "_LesPatriotes"
   },
   {
+    "name": "Mireia Borrás Pabón",
+    "handle": "_mireiaborras"
+  },
+  {
+    "name": "Patricia Rueda",
+    "handle": "_patricia_rueda"
+  },
+  {
+    "name": "Polémia",
+    "handle": "_polemia"
+  },
+  {
+    "name": "Retrouver Nice",
+    "handle": "_retrouvernice"
+  },
+  {
     "name": "Riposte Laique",
     "handle": "1RiposteLaique"
+  },
+  {
+    "name": "Mungo Shematsi",
+    "handle": "2017loirecirco4"
   },
   {
     "name": "21NewsBE",
     "handle": "21NewsBE"
   },
   {
+    "name": "Adeline Blancquaert",
+    "handle": "A_Blancquaert"
+  },
+  {
+    "name": "Aymeric Chauprade",
+    "handle": "a_chauprade"
+  },
+  {
+    "name": "Alexandre Dupalais",
+    "handle": "a_dupalais"
+  },
+  {
     "name": "Aurélien Dutremble",
     "handle": "A_Dutremble"
   },
   {
-    "name": "A_Masson06",
+    "name": "Ángel López Maraver",
+    "handle": "A_LopezMaraver"
+  },
+  {
+    "name": "Alexandra Masson",
     "handle": "A_Masson06"
+  },
+  {
+    "name": "Alexander Arpaschi",
+    "handle": "AArpaschi"
+  },
+  {
+    "name": "Abdurrahman Başkan",
+    "handle": "abdurrahmanbask"
   },
   {
     "name": "ABRFL31",
     "handle": "ABRFL31"
   },
   {
+    "name": "Andrew Bridgen",
+    "handle": "ABridgen"
+  },
+  {
+    "name": "Achim Köhler",
+    "handle": "AchimKoehlerAfD"
+  },
+  {
+    "name": "Anthony Corey Sanchez Alberto",
+    "handle": "acorey_cat"
+  },
+  {
+    "name": "Michael Klonovsky",
+    "handle": "ActaKlonovsky"
+  },
+  {
     "name": "Action française",
     "handle": "actionfrancaise"
+  },
+  {
+    "name": "Amélie de La Rochère",
+    "handle": "AD_LR"
+  },
+  {
+    "name": "Adam Balten",
+    "handle": "adambalten"
+  },
+  {
+    "name": "Alfred Dannenberg",
+    "handle": "AdannMdL"
+  },
+  {
+    "name": "Andrea Di Giuseppe",
+    "handle": "adg_iovoto"
+  },
+  {
+    "name": "Alternative pour l'Allemagne",
+    "handle": "AfD"
+  },
+  {
+    "name": "Matthias Lieschke",
+    "handle": "AfD_Lieschke"
+  },
+  {
+    "name": "Ramona Storm",
+    "handle": "afd_storm"
+  },
+  {
+    "name": "Andreas Gehlmann",
+    "handle": "afdgehlmann"
+  },
+  {
+    "name": "Jens Schulze-Wiehenbrauk",
+    "handle": "AfdJens"
+  },
+  {
+    "name": "Gunnar Lindemann",
+    "handle": "AfDLindemann"
+  },
+  {
+    "name": "Stephan Protschka",
+    "handle": "AfDProtschka"
+  },
+  {
+    "name": "Lukas Rehm",
+    "handle": "AfDRehm"
+  },
+  {
+    "name": "Eugen Schmidt",
+    "handle": "afdrus"
+  },
+  {
+    "name": "Alternativ för Sverige",
+    "handle": "AFS_riks"
+  },
+  {
+    "name": "Alexandre Douguine",
+    "handle": "AGDugin"
+  },
+  {
+    "name": "Agustín Buades",
+    "handle": "agustinbuades"
+  },
+  {
+    "name": "Agustín Laje",
+    "handle": "AgustinLaje"
+  },
+  {
+    "name": "Ahat Andican",
+    "handle": "AhatAndican"
+  },
+  {
+    "name": "Ahmet Özyürek",
+    "handle": "ahmetozyurekmhp"
+  },
+  {
+    "name": "Jenna Simula",
+    "handle": "ainoahelmi"
+  },
+  {
+    "name": "Ahmet Kenan Tanrıkulu",
+    "handle": "akenantanrikulu"
+  },
+  {
+    "name": "Aleksandar Nikolic",
+    "handle": "Al_Nikolic"
+  },
+  {
+    "name": "Alain Avello",
+    "handle": "alainavello"
+  },
+  {
+    "name": "Alfred Bamberger",
+    "handle": "AlBamberger"
+  },
+  {
+    "name": "Albéric Dumont",
+    "handle": "albdmt"
+  },
+  {
+    "name": "Alberto Teófilo Asarta Cuevas",
+    "handle": "AlbertoAsarta"
+  },
+  {
+    "name": "Andrés Alberto Rodríguez Almeida",
+    "handle": "AlbertoRA_VOX"
   },
   {
     "name": "Alcide de France",
     "handle": "alcidedefrance"
   },
   {
-    "name": "Alexandre Dufosset",
-    "handle": "AlexandreDfss"
+    "name": "Aldo Sterone",
+    "handle": "AldoSterone111"
   },
   {
-    "name": "Alexandre Jardin",
-    "handle": "AlexandreJardin"
+    "name": "Alessia Ambrosi",
+    "handle": "AleAmbrosiTW"
+  },
+  {
+    "name": "Alexandre Simonnot",
+    "handle": "alex_simonnot"
+  },
+  {
+    "name": "Alexander Wolf",
+    "handle": "AlexanderWolfHH"
+  },
+  {
+    "name": "Alexandre Avril",
+    "handle": "alexandreavril_"
+  },
+  {
+    "name": "Alexandre Dufosset",
+    "handle": "AlexandreDfss"
   },
   {
     "name": "Alexandre Loubet",
@@ -52,48 +248,152 @@
     "handle": "AlexandreVaraut"
   },
   {
-    "name": "Alex Devecchio",
-    "handle": "AlexDevecchio"
+    "name": "Alexandre del Valle",
+    "handle": "alexdelvalle3"
   },
   {
     "name": "Alexis Jolly",
     "handle": "alexisjollyrn"
   },
   {
+    "name": "Alexander Jungbluth",
+    "handle": "AlexJungbluth"
+  },
+  {
+    "name": "Alex Kurtagić",
+    "handle": "alexkurtagic"
+  },
+  {
     "name": "Alexandre Saradjian",
     "handle": "AlexSaradjian"
+  },
+  {
+    "name": "Alexander Tassis",
+    "handle": "AlexTassisAfD"
+  },
+  {
+    "name": "Alican Erdoğan",
+    "handle": "alicanerdogann"
+  },
+  {
+    "name": "Alice Weidel",
+    "handle": "Alice_Weidel"
   },
   {
     "name": "Aliénor de Pompignan",
     "handle": "alienordep"
   },
   {
+    "name": "Jean Robin",
+    "handle": "Allchina360ara1"
+  },
+  {
+    "name": "Alexander Sell",
+    "handle": "AlxSell"
+  },
+  {
     "name": "AmauryBucco",
     "handle": "AmauryBucco"
   },
   {
-    "name": "ambre_louisin",
-    "handle": "ambre_louisin"
-  },
-  {
-    "name": "Amirkhizy",
-    "handle": "AmirkhizyMeliss"
+    "name": "Paola Ambrogio",
+    "handle": "AmbrogioPaola"
   },
   {
     "name": "Anaïs Maréchal",
     "handle": "anais_marechal_"
   },
   {
+    "name": "Anaïs Sabatini",
+    "handle": "Anais_Sabatini"
+  },
+  {
+    "name": "Annabel Nanninga",
+    "handle": "ananninga"
+  },
+  {
+    "name": "Amaury Navarranne",
+    "handle": "aNavarranne"
+  },
+  {
+    "name": "Ana Vega Campos",
+    "handle": "AnaVegaVOX"
+  },
+  {
+    "name": "Christine Anderson",
+    "handle": "AndersonAfDMdEP"
+  },
+  {
+    "name": "Andreas Bleck",
+    "handle": "andreasbleckmdb"
+  },
+  {
+    "name": "Andreas Kalbitz",
+    "handle": "andreaskalbitz"
+  },
+  {
+    "name": "Andreas Lichert",
+    "handle": "andreaslichert"
+  },
+  {
+    "name": "Andreas Mayer",
+    "handle": "AndreasMayerAfD"
+  },
+  {
+    "name": "Andreas Wild",
+    "handle": "AndreasWildAfD"
+  },
+  {
+    "name": "André Bercoff",
+    "handle": "andrebercoff"
+  },
+  {
+    "name": "André Ventura",
+    "handle": "AndreCVentura"
+  },
+  {
     "name": "André Rougé",
     "handle": "AndreRougeOff"
   },
   {
+    "name": "Andrés Félix Bello Sanz",
+    "handle": "AndresBelloSanz"
+  },
+  {
+    "name": "André Wendt",
+    "handle": "AndreWendtMdL"
+  },
+  {
+    "name": "Andriy Mokhnik",
+    "handle": "AndriyMokhnyk"
+  },
+  {
+    "name": "Andreas Winhart",
+    "handle": "AndyWinhart"
+  },
+  {
     "name": "👉 ​𝓐𝓷𝓰𝓮𝓵_𝓟𝓪𝓻𝓪𝓭𝓲𝔃𝓮 👈",
-    "handle": "angel_paradize"
+    "handle": "Angel_Paradize"
+  },
+  {
+    "name": "Ángela Mulas Belizón",
+    "handle": "AngelaMulasVOX"
+  },
+  {
+    "name": "Angela Rudzka",
+    "handle": "AngelaRudzka"
   },
   {
     "name": "Angélique Ranc",
     "handle": "angelique_ranc"
+  },
+  {
+    "name": "Anke Van dermeersch",
+    "handle": "Anke_online"
+  },
+  {
+    "name": "Anna Bryłka",
+    "handle": "annabrylka"
   },
   {
     "name": "Anne_deProvence",
@@ -104,68 +404,236 @@
     "handle": "annesicard1"
   },
   {
-    "name": "AnnickCousin_RN",
+    "name": "Annick Cousin",
     "handle": "AnnickCousin_RN"
+  },
+  {
+    "name": "Annick Ponthier",
+    "handle": "AnnickPonthier"
+  },
+  {
+    "name": "Ansgar Schledde",
+    "handle": "Ansgar_Schledde"
   },
   {
     "name": "Anthony Boulogne",
     "handle": "AntBoulogne54"
   },
   {
-    "name": "Anthony Favalli",
-    "handle": "anthonyfavalli"
+    "name": "Antelope Hill Publishing",
+    "handle": "AntelopeHill"
   },
   {
-    "name": "Ar Marvailher",
-    "handle": "ArMarvailher"
+    "name": "Antoine Martinez",
+    "handle": "antoine27955080"
   },
   {
-    "name": "ArthurJosso1",
-    "handle": "ArthurJosso1"
+    "name": "Antoine Diers",
+    "handle": "AntoineDiers"
+  },
+  {
+    "name": "Anton Baron",
+    "handle": "AntonBaronAfD"
+  },
+  {
+    "name": "Antonin_FR_",
+    "handle": "antonin_fr_"
+  },
+  {
+    "name": "Antonin Brousek",
+    "handle": "AntoninBrousek"
+  },
+  {
+    "name": "Philippe Conrad",
+    "handle": "aphistoire"
+  },
+  {
+    "name": "Apollo News",
+    "handle": "apollo_news_de"
+  },
+  {
+    "name": "Arianna Meloni",
+    "handle": "ariannamln"
+  },
+  {
+    "name": "Ariopol_eu",
+    "handle": "ariopol_eu"
+  },
+  {
+    "name": "Arktos Media",
+    "handle": "ArktosJournal"
+  },
+  {
+    "name": "Arno Bausemer",
+    "handle": "ArnoBausemerAfD"
+  },
+  {
+    "name": "Arno Enners",
+    "handle": "ArnoEnnersAfD"
+  },
+  {
+    "name": "Arsen Kanokov",
+    "handle": "ArsenKanokov"
   },
   {
     "name": "Alexandre Sabatou",
     "handle": "ASabatou"
   },
   {
+    "name": "Sara Winter",
+    "handle": "asarahuff"
+  },
+  {
     "name": "Anne-Sophie Frigout",
     "handle": "asfrigout"
+  },
+  {
+    "name": "Laurent Houssin",
+    "handle": "asiatrek"
+  },
+  {
+    "name": "Atila Kaya",
+    "handle": "AtilaKaya_MHP"
   },
   {
     "name": "Auguste Evrard",
     "handle": "Au_Evrard"
   },
   {
+    "name": "Aurélien Legrand",
+    "handle": "Au_Legrand"
+  },
+  {
+    "name": "AUF1",
+    "handle": "AUF1TV"
+  },
+  {
+    "name": "Augusta Montaruli",
+    "handle": "augustamontarul"
+  },
+  {
+    "name": "Avenir_francais",
+    "handle": "avenir_francais"
+  },
+  {
+    "name": "Halil Öztürk",
+    "handle": "Avkthalilozturk"
+  },
+  {
+    "name": "AymericDurox",
+    "handle": "aymericdurox"
+  },
+  {
+    "name": "Ayşe Sibel Ersoy",
+    "handle": "AyseSibelErsoy"
+  },
+  {
+    "name": "Bastian Treuheit",
+    "handle": "B_Treuheit"
+  },
+  {
+    "name": "Raw Egg Nationalist",
+    "handle": "Babygravy9"
+  },
+  {
+    "name": "Carolin Bachmann",
+    "handle": "BachmannMdB"
+  },
+  {
+    "name": "Gerhard Bärsch",
+    "handle": "BaerschMdL"
+  },
+  {
+    "name": "Baked Alaska",
+    "handle": "bakedalaska"
+  },
+  {
     "name": "Philippe Ballard",
     "handle": "BallardPhilippe"
   },
   {
-    "name": "@Bart_DeWever",
-    "handle": "Bart_DeWever"
+    "name": "Rainer Balzer",
+    "handle": "balzer_dr"
+  },
+  {
+    "name": "Baptiste Philippo",
+    "handle": "bapt_philippo"
+  },
+  {
+    "name": "Barbara Pas",
+    "handle": "Barbara_Pas"
+  },
+  {
+    "name": "Barbara Bonte",
+    "handle": "Barbarabonte"
+  },
+  {
+    "name": "Christophe Barthès",
+    "handle": "BarthesChristop"
+  },
+  {
+    "name": "André Barth",
+    "handle": "BarthMdl"
   },
   {
     "name": "Bartolomé Lenoir",
     "handle": "bartolenoir"
   },
   {
+    "name": "Jacek Władysław Bartyzel",
+    "handle": "bartyzel"
+  },
+  {
+    "name": "Bas Filippini",
+    "handle": "BasFilippini"
+  },
+  {
+    "name": "Bastian Maldiney",
+    "handle": "BastianMaldiney"
+  },
+  {
     "name": "Bastion",
     "handle": "BastionMediaFR"
+  },
+  {
+    "name": "BattiniNiculaiu",
+    "handle": "battininiculaiu"
   },
   {
     "name": "Romain Baubry",
     "handle": "BaubryR"
   },
   {
+    "name": "Jörg Baumann",
+    "handle": "BaumannMdL"
+  },
+  {
     "name": "Bay_Christophe",
     "handle": "Bay_Christophe"
+  },
+  {
+    "name": "Parti de la grande unité",
+    "handle": "bbpgenelmerkez"
   },
   {
     "name": "Bernard Chaumeil",
     "handle": "BChaumeil_RN"
   },
   {
+    "name": "Bertrand Dutheil de La Rochère",
+    "handle": "BDLR_LP"
+  },
+  {
+    "name": "Beatrix von Storch",
+    "handle": "Beatrix_vStorch"
+  },
+  {
     "name": "José Beaurain",
     "handle": "beaurainjose"
+  },
+  {
+    "name": "Mario Beger",
+    "handle": "BegerMario"
   },
   {
     "name": "Robot Z-5610 ⓩ 🇫🇷",
@@ -176,24 +644,68 @@
     "handle": "BeneAuzanot"
   },
   {
+    "name": "Benjamin Filter",
+    "handle": "BenFilter"
+  },
+  {
+    "name": "Benjamin Cauchy",
+    "handle": "BenjaminCauchy"
+  },
+  {
+    "name": "Benjamin Nolte",
+    "handle": "BenjaminNolte3"
+  },
+  {
+    "name": "Benny Johnson",
+    "handle": "bennyjohnson"
+  },
+  {
     "name": "Christophe Bentz",
     "handle": "BentzChristophe"
   },
   {
-    "name": "@BernardQuintin_",
-    "handle": "BernardQuintin_"
+    "name": "Bernard Antony",
+    "handle": "bernardantony_"
   },
   {
-    "name": "Bfmtv",
-    "handle": "Bfmtv"
+    "name": "Bernard Carayon",
+    "handle": "BernardCarayon"
+  },
+  {
+    "name": "Bernhard Zimniok",
+    "handle": "BernhardZimniok"
   },
   {
     "name": "Martial Bild",
     "handle": "BildMartial"
   },
   {
+    "name": "Birgit Bessin",
+    "handle": "BirgitBessin"
+  },
+  {
+    "name": "Björn Höcke",
+    "handle": "BjoernHoecke"
+  },
+  {
     "name": "Emmanuel Blairy",
     "handle": "BlairyEmmanuel"
+  },
+  {
+    "name": "Joachim Bloch",
+    "handle": "BlochMdB"
+  },
+  {
+    "name": "Burkhard Müller-Ullrich",
+    "handle": "bmuonline"
+  },
+  {
+    "name": "Parti national britannique",
+    "handle": "bnp"
+  },
+  {
+    "name": "Bob De Brabandere",
+    "handle": "BobDeBrabandere"
   },
   {
     "name": "Frédéric Boccaletti",
@@ -201,11 +713,7 @@
   },
   {
     "name": "Hugo Boulitz ☃️",
-    "handle": "bonnationaliste"
-  },
-  {
-    "name": "BoskoDeBamako",
-    "handle": "BoskoDeBamako"
+    "handle": "BonNationaliste"
   },
   {
     "name": "Boulee_Boulee",
@@ -216,24 +724,44 @@
     "handle": "bouliboulibouli"
   },
   {
-    "name": "Boulicitoyen",
-    "handle": "Boulicitoyen"
+    "name": "Breitbart News",
+    "handle": "BreitbartLondon"
   },
   {
-    "name": "BouliNukem",
-    "handle": "BouliNukem"
-  },
-  {
-    "name": "BouliZellig",
-    "handle": "BouliZellig"
+    "name": "Breitbart News",
+    "handle": "BreitbartNews"
   },
   {
     "name": "Breizh-Info (Yann Vallerie)",
     "handle": "Breizh_Info"
   },
   {
-    "name": "brivael",
+    "name": "Hervé Breuil",
+    "handle": "BreuilHerve"
+  },
+  {
+    "name": "Brigitte Barèges",
+    "handle": "BrigitteBareges"
+  },
+  {
+    "name": "Brivael Le Pogam",
     "handle": "brivael"
+  },
+  {
+    "name": "Bronze Age Pervert",
+    "handle": "bronzeagemantis"
+  },
+  {
+    "name": "Bronze Age Pervert",
+    "handle": "BronzeAgePerv"
+  },
+  {
+    "name": "Roosmarijn Beckers",
+    "handle": "BRoosmarijn"
+  },
+  {
+    "name": "Erhard Brucker",
+    "handle": "BruckerAfD"
   },
   {
     "name": "Bruno Attal",
@@ -248,32 +776,64 @@
     "handle": "BrunoClavet"
   },
   {
-    "name": "Bruno LeMaire",
-    "handle": "BrunoLeMaire"
+    "name": "Bruno Gollnisch",
+    "handle": "brunogollnisch"
   },
   {
-    "name": "Bruno Retailleau",
-    "handle": "BrunoRetailleau"
+    "name": "Bruno Lemaire",
+    "handle": "BrunoL66"
+  },
+  {
+    "name": "Bryan Pecqueur",
+    "handle": "bryanpecqueur"
+  },
+  {
+    "name": "Markus Buchheit",
+    "handle": "BuchheitMarkus"
+  },
+  {
+    "name": "Christian Buchholz",
+    "handle": "BuchholzMda"
+  },
+  {
+    "name": "İsmet Büyükataman",
+    "handle": "buyukataman"
   },
   {
     "name": "Boulevard Voltaire",
     "handle": "BVoltaire"
   },
   {
-    "name": "camille_eros",
+    "name": "Chaled-Uwe Said",
+    "handle": "C_U_Said"
+  },
+  {
+    "name": "S14",
+    "handle": "C14News"
+  },
+  {
+    "name": "Camel Bechikh",
+    "handle": "CamelBechikh"
+  },
+  {
+    "name": "Camille Eros",
     "handle": "camille_eros"
   },
   {
-    "name": "Capetlevrai",
-    "handle": "Capetlevrai"
+    "name": "CamilleNDLille",
+    "handle": "camillendlille"
   },
   {
-    "name": "Caroline Fourest",
-    "handle": "CarolineFourest"
+    "name": "Carina Schießl",
+    "handle": "Carina_Schiessl"
   },
   {
-    "name": "Caroline Yadan",
-    "handle": "Carolineyadan"
+    "name": "Carlos Pollán",
+    "handle": "CarlosPollan"
+  },
+  {
+    "name": "Carola Wolle",
+    "handle": "CarolaWolle"
   },
   {
     "name": "Casus Lady",
@@ -284,6 +844,14 @@
     "handle": "cathRimbert84"
   },
   {
+    "name": "Catherine Rouvier",
+    "handle": "CathRouvier"
+  },
+  {
+    "name": "Agnès Caudron",
+    "handle": "caudron62"
+  },
+  {
     "name": "Causeur",
     "handle": "Causeur"
   },
@@ -292,44 +860,104 @@
     "handle": "CColombier_RN"
   },
   {
-    "name": "@CentreJeanGol",
-    "handle": "CentreJeanGol"
+    "name": "Celal Adan",
+    "handle": "celal_adan"
+  },
+  {
+    "name": "Cendrine Blot",
+    "handle": "cendrine_blot"
   },
   {
     "name": "CerfiaFR",
     "handle": "CerfiaFR"
   },
   {
-    "name": "CERIF - Centre de Recherche sur le Frérisme",
-    "handle": "cerifrerisme"
+    "name": "Mike Cernovich",
+    "handle": "Cernovich"
   },
   {
-    "name": "Charles Consigny",
-    "handle": "CharlesConsigny"
+    "name": "Charlie Downes",
+    "handle": "cfdownes_"
+  },
+  {
+    "name": "Patricia Chagnon",
+    "handle": "ChagnonPatricia"
+  },
+  {
+    "name": "Charles Alloncle",
+    "handle": "challoncle"
+  },
+  {
+    "name": "Chanel Rion",
+    "handle": "ChanelRion"
+  },
+  {
+    "name": "Chanel Rion",
+    "handle": "ChanelRionOAN"
+  },
+  {
+    "name": "Charles Prats",
+    "handle": "charlesprats"
+  },
+  {
+    "name": "Christophe Boudot",
+    "handle": "ChBoudot"
   },
   {
     "name": "Charlotte d'Ornellas",
     "handle": "ChdOrnellas"
   },
   {
-    "name": "@ChezNousOff",
+    "name": "Chez Nous 2024",
     "handle": "ChezNousOff"
+  },
+  {
+    "name": "Christian Lechevalier",
+    "handle": "ChLECHEVALIER"
+  },
+  {
+    "name": "Chris Janssens",
+    "handle": "chrisjanssensVB"
+  },
+  {
+    "name": "Christian Blex",
+    "handle": "ChristianBlex"
   },
   {
     "name": "Christine Kelly",
     "handle": "christine_kelly"
   },
   {
+    "name": "Christine Boutin",
+    "handle": "christineboutin"
+  },
+  {
     "name": "Christine Loir",
     "handle": "ChristineLoirRN"
+  },
+  {
+    "name": "Christian Wirth",
+    "handle": "ChrWirthMdB"
   },
   {
     "name": "Roger Chudeau",
     "handle": "ChudeauR"
   },
   {
-    "name": "Chypre_France🇨🇾🇫🇷",
-    "handle": "Chypre_France_"
+    "name": "Bart Claes",
+    "handle": "claesbart"
+  },
+  {
+    "name": "Claire Geromini",
+    "handle": "ClaireGeronimii"
+  },
+  {
+    "name": "Carlo Clemens",
+    "handle": "clemens_carlo"
+  },
+  {
+    "name": "Clément Vanheuverswyn",
+    "handle": "clement_vhn"
   },
   {
     "name": "CNEWS",
@@ -340,8 +968,24 @@
     "handle": "CNEWSLesOFF"
   },
   {
+    "name": "Conseil national de la résistance européenne",
+    "handle": "cnrefr"
+  },
+  {
+    "name": "Andrew Tate",
+    "handle": "Cobratate"
+  },
+  {
     "name": "La Cocarde étudiante",
     "handle": "CocardeEtud"
+  },
+  {
+    "name": "Jacobo Robatto",
+    "handle": "CocoRobatto"
+  },
+  {
+    "name": "Jean-Marie Cojannot",
+    "handle": "cojannot"
   },
   {
     "name": "Coline Houssays",
@@ -353,58 +997,138 @@
   },
   {
     "name": "Collectif Eros",
-    "handle": "collectiferos"
+    "handle": "CollectifEros"
+  },
+  {
+    "name": "Comités Jeanne",
+    "handle": "ComitesJeanne"
   },
   {
     "name": "Commander Torenn",
     "handle": "CommanderTorenn"
   },
   {
+    "name": "Compact",
+    "handle": "COMPACTMagazin"
+  },
+  {
+    "name": "Nicolas Conquer",
+    "handle": "ConquerNicolas"
+  },
+  {
     "name": "Alice Cordier",
     "handle": "CordierAlice2"
+  },
+  {
+    "name": "Corinna Herold",
+    "handle": "CorinnaHerold"
+  },
+  {
+    "name": "Mark Meechan",
+    "handle": "CountDankulaTV"
   },
   {
     "name": "Maxime Coupeau",
     "handle": "coupeau_maxime"
   },
   {
-    "name": "aSiCsSed",
-    "handle": "cs_sed"
-  },
-  {
     "name": "Charles Sapin",
     "handle": "csapin"
+  },
+  {
+    "name": "Curtis Yarvin",
+    "handle": "curtis_yarvin"
+  },
+  {
+    "name": "Cyril Nauth",
+    "handle": "Cyril_NAUTH"
+  },
+  {
+    "name": "Carlos José Zambrano García-Raez",
+    "handle": "czambranogr"
+  },
+  {
+    "name": "Daniel Freiherr von Lützow",
+    "handle": "d_lutzow"
+  },
+  {
+    "name": "Démocratie nationale",
+    "handle": "D_Nacional"
+  },
+  {
+    "name": "Dobromir Sośnierz",
+    "handle": "D_Sosnierz"
+  },
+  {
+    "name": "Epoch Times",
+    "handle": "dajiyuan"
+  },
+  {
+    "name": "Damian Lohr",
+    "handle": "Damian_Lohr"
   },
   {
     "name": "Damien Rieu",
     "handle": "DamienRieu"
   },
   {
-    "name": "Daniel GRENON",
-    "handle": "DanielGrenon89"
+    "name": "Daniel Roi",
+    "handle": "Daniel_Roi_AfD"
   },
   {
-    "name": "Daniel Riolo",
-    "handle": "DanielRiolo"
+    "name": "Daniel Haseloff",
+    "handle": "DanielHaseloff"
   },
   {
-    "name": "Daniel KABUTO",
-    "handle": "DANYKAB1971"
+    "name": "Daniel Münschke",
+    "handle": "DanielMuenschke"
   },
   {
-    "name": "David Alaime",
-    "handle": "DavidAlaime"
+    "name": "Danny Meiners",
+    "handle": "DannyMeinersAfD"
   },
   {
-    "name": "David Lisnard",
-    "handle": "davidlisnard"
+    "name": "Dario Seifert",
+    "handle": "dario_seifert"
   },
   {
-    "name": "N-VA",
-    "handle": "de_NVA"
+    "name": "David Rachline",
+    "handle": "david_rachline"
   },
   {
-    "name": "@Destexhe",
+    "name": "David Köckert",
+    "handle": "DavidKoeckert"
+  },
+  {
+    "name": "Devlet Bahçeli",
+    "handle": "dbdevletbahceli"
+  },
+  {
+    "name": "Dennis de Jong",
+    "handle": "Ddjong"
+  },
+  {
+    "name": "Luca De Carlo",
+    "handle": "decarlosindaco"
+  },
+  {
+    "name": "Delia Klages",
+    "handle": "DeliaKlagesAfD"
+  },
+  {
+    "name": "Dennis Hohloch",
+    "handle": "Dennis_Hohloch"
+  },
+  {
+    "name": "Denny Jankowski",
+    "handle": "Denny_Jankowski"
+  },
+  {
+    "name": "Johan Dessing",
+    "handle": "DessingJohan"
+  },
+  {
+    "name": "Alain Destexhe",
     "handle": "Destexhe"
   },
   {
@@ -416,32 +1140,164 @@
     "handle": "deval_eliot"
   },
   {
-    "name": "Diazinho_fox75",
-    "handle": "Diazinho_fox75"
+    "name": "Heike Werding",
+    "handle": "DGP_Praevention"
+  },
+  {
+    "name": "Diana Zimmer",
+    "handle": "DianaZimmerMdB"
+  },
+  {
+    "name": "Edwige Diaz",
+    "handle": "diaz_edwige"
+  },
+  {
+    "name": "Didier Carette",
+    "handle": "didier_carette"
+  },
+  {
+    "name": "Die Rechte",
+    "handle": "dierechtebund"
+  },
+  {
+    "name": "Dieter Arnold",
+    "handle": "DieterArnoldAfD"
+  },
+  {
+    "name": "Dieter Neuendorf",
+    "handle": "DieterNeuendorf"
+  },
+  {
+    "name": "Dietmar Friedhoff",
+    "handle": "dietmarfriedho1"
+  },
+  {
+    "name": "Dirk Brandes",
+    "handle": "DirkBrandes74"
+  },
+  {
+    "name": "Disclose.tv",
+    "handle": "disclosetv"
+  },
+  {
+    "name": "Derk Jan Eppink",
+    "handle": "djeppink"
+  },
+  {
+    "name": "Dominik Alexander Kaufner",
+    "handle": "DKaufner"
+  },
+  {
+    "name": "Dominique Martin",
+    "handle": "DMartinFN"
+  },
+  {
+    "name": "David Masson-Weyl",
+    "handle": "DMdoubleV"
+  },
+  {
+    "name": "Document.no",
+    "handle": "DocumentNo"
+  },
+  {
+    "name": "Dominique Bilde",
+    "handle": "DominiqueBilde"
   },
   {
     "name": "Doramoutot",
     "handle": "Doramoutot"
   },
   {
-    "name": "droiteuniv",
+    "name": "Doris Senger",
+    "handle": "DorisSenger_MdL"
+  },
+  {
+    "name": "Christian Douglas",
+    "handle": "Douglas_MdB"
+  },
+  {
+    "name": "Douglas Murray",
+    "handle": "DouglasKMurray"
+  },
+  {
+    "name": "Ralph Müller",
+    "handle": "dr_afd"
+  },
+  {
+    "name": "Hans Neuhoff",
+    "handle": "dr_neuhoff"
+  },
+  {
+    "name": "Rainer Kraft",
+    "handle": "Dr_Rainer_Kraft"
+  },
+  {
+    "name": "Bernd Baumann",
+    "handle": "DrBerndBaumann"
+  },
+  {
+    "name": "Christoph Birghan",
+    "handle": "DrBirghan"
+  },
+  {
+    "name": "Christina Baum",
+    "handle": "DrChristinaBaum"
+  },
+  {
+    "name": "Michael Espendiller",
+    "handle": "DrMEspendiller"
+  },
+  {
+    "name": "Michael Ben-Ari",
+    "handle": "drmichaelbenari"
+  },
+  {
+    "name": "Christopher Drößler",
+    "handle": "Droessler_AfD"
+  },
+  {
+    "name": "Daniela Oeynhausen",
+    "handle": "DrOeynhausen"
+  },
+  {
+    "name": "DroitardBavardd",
+    "handle": "droitardbavardd"
+  },
+  {
+    "name": "UNI",
     "handle": "droiteuniv"
   },
   {
-    "name": "Denis DUCARME",
-    "handle": "ducarmedenis"
+    "name": "Robby Schlund",
+    "handle": "DrRobbySchlund"
+  },
+  {
+    "name": "Rainer Rothfuß",
+    "handle": "DrRothfuss"
+  },
+  {
+    "name": "Daniela Santanchè",
+    "handle": "DSantanche"
   },
   {
     "name": "Nicolas Dupont-Aignan",
     "handle": "dupontaignan"
   },
   {
-    "name": "@DVanLangenhove",
+    "name": "Dóra Dúró",
+    "handle": "duro_dora"
+  },
+  {
+    "name": "Dries Van Langenhove",
     "handle": "DVanLangenhove"
   },
   {
     "name": "Emmanuel Fouquart",
     "handle": "e_Fouquart"
+  },
+  {
+    "name": "Ellen Samyn",
+    "handle": "e_samyn"
   },
   {
     "name": "E2Villiers",
@@ -456,36 +1312,124 @@
     "handle": "EddyCasterman"
   },
   {
+    "name": "Emilio del Valle",
+    "handle": "edelvallerod"
+  },
+  {
+    "name": "Élisabeth de Saint-Juste",
+    "handle": "EdeSaintJuste"
+  },
+  {
+    "name": "Edgar Naujok",
+    "handle": "edgar_naujok"
+  },
+  {
+    "name": "Edmondo Cirielli",
+    "handle": "edmondocirielli"
+  },
+  {
+    "name": "Édouard Jordan",
+    "handle": "EdouardJordan1"
+  },
+  {
+    "name": "Juho Eerola",
+    "handle": "EerolaJuho"
+  },
+  {
+    "name": "Elisabetta Gardini",
+    "handle": "EGardini"
+  },
+  {
+    "name": "Ethniko Laiko Metopo",
+    "handle": "ELAMCY"
+  },
+  {
+    "name": "Carla Toscano de Balbín",
+    "handle": "eledhmel"
+  },
+  {
+    "name": "Elena Roon",
+    "handle": "ElenaRoonAfD"
+  },
+  {
     "name": "Eléonore BezⓂ️",
     "handle": "EleonoreBez"
   },
   {
-    "name": "Élodie Huchard",
-    "handle": "ElodieHuchard"
+    "name": "Élisabeth Lévy",
+    "handle": "ELevyCauseur"
   },
   {
-    "name": "elonmusk",
+    "name": "Élodie Coléon",
+    "handle": "elodiec0203"
+  },
+  {
+    "name": "Elon Musk",
     "handle": "elonmusk"
+  },
+  {
+    "name": "Gerhard Helmuth Berengar Elsner von Gronow",
+    "handle": "ElsnervonGronow"
   },
   {
     "name": "Emeric Salmon",
     "handle": "EmericSalmon"
   },
   {
+    "name": "Emin Haluk Ayhan",
+    "handle": "EminHalukAyhan"
+  },
+  {
     "name": "🇫🇷 Vévé-énervé",
     "handle": "EnerveVeve"
   },
   {
-    "name": "Enough_was_then",
-    "handle": "Enough_was_then"
+    "name": "Enrico Komning",
+    "handle": "EnricoKomning"
+  },
+  {
+    "name": "Enxhi Seli-Zacharias",
+    "handle": "EnxhiSeli"
+  },
+  {
+    "name": "Epoch Times",
+    "handle": "EpochTimes"
+  },
+  {
+    "name": "Éric Miné",
+    "handle": "eric__mine"
+  },
+  {
+    "name": "Éric Richermoz",
+    "handle": "Erichermoz"
   },
   {
     "name": "Eric Morillot",
     "handle": "EricMorillot"
   },
   {
-    "name": "Eric Naulleau",
-    "handle": "EricNaulleau"
+    "name": "Erik Gilissen",
+    "handle": "ErikGilissen"
+  },
+  {
+    "name": "Erkan Akçay",
+    "handle": "erkanakcay45"
+  },
+  {
+    "name": "Moi (Arc solaire ) 🌲☀️",
+    "handle": "ErwannLover"
+  },
+  {
+    "name": "L'Europe des nations souveraines",
+    "handle": "ESNgroup_EU"
+  },
+  {
+    "name": "İbrahim Ethem Sedef",
+    "handle": "ethemsedef"
+  },
+  {
+    "name": "Leyla Bilge",
+    "handle": "Eure_LeylaBilge"
   },
   {
     "name": "Europe 1",
@@ -496,8 +1440,24 @@
     "handle": "evaduparc"
   },
   {
+    "name": "Eva Vlaardingerbroek",
+    "handle": "EvaVlaar"
+  },
+  {
+    "name": "Ewald Kegel",
+    "handle": "EwaldKegel"
+  },
+  {
+    "name": "Ewa Zajączkowska-Hernik",
+    "handle": "EwaZajaczkowska"
+  },
+  {
     "name": "Marc Eynaud",
     "handle": "Eynaud_Marc"
+  },
+  {
+    "name": "Ezra Levant",
+    "handle": "ezralevant"
   },
   {
     "name": "Fdesouche",
@@ -508,28 +1468,80 @@
     "handle": "f_philippot"
   },
   {
+    "name": "Fabian Jank",
+    "handle": "fabian_jank_afd"
+  },
+  {
+    "name": "Fabien Engelmann",
+    "handle": "FabienEngelmann"
+  },
+  {
     "name": "Fabrice Leggeri",
     "handle": "fabriceleggeri"
+  },
+  {
+    "name": "Faits et Documents",
+    "handle": "faitsetdocs"
   },
   {
     "name": "Frederic Falcon",
     "handle": "FalconFrederic"
   },
   {
+    "name": "Falk Gerd Janke",
+    "handle": "FalkJanke"
+  },
+  {
+    "name": "Fafcraft",
+    "handle": "fancraft123"
+  },
+  {
     "name": "Faycal Jelil",
     "handle": "FaycalJelil"
   },
   {
-    "name": "Florence Bergeaud-Backler",
-    "handle": "FBBlackler"
+    "name": "Franz Bergmüller",
+    "handle": "FBergmuellerMdL"
   },
   {
-    "name": "@FDW_VB",
+    "name": "Filip Dewinter",
     "handle": "FDW_VB"
   },
   {
-    "name": "Association Femme Azadi",
-    "handle": "femmeazadi"
+    "name": "Ferdinand Mang",
+    "handle": "Ferdinand_Mang"
+  },
+  {
+    "name": "Feridun Bahşi",
+    "handle": "Feridun_Bahsi"
+  },
+  {
+    "name": "Andreas Feymark",
+    "handle": "feymark"
+  },
+  {
+    "name": "Carlo Fidanza",
+    "handle": "FidanzaCarlo"
+  },
+  {
+    "name": "José María Figaredo Álvarez-Sala",
+    "handle": "FigaredoJoseM"
+  },
+  {
+    "name": "Filip Brusselmans",
+    "handle": "Filip_Bru"
+  },
+  {
+    "name": "Francisco José Contreras Peláez",
+    "handle": "fjconpe"
+  },
+  {
+    "name": "Fjordman",
+    "handle": "Fjordman1"
+  },
+  {
+    "name": "Francisco José Alcaraz",
+    "handle": "fjosealcaraz"
   },
   {
     "name": "Flavien JOUVE",
@@ -548,20 +1560,96 @@
     "handle": "FlorenceGoulet4"
   },
   {
-    "name": "FranceDeGaulois🇫🇷💤",
-    "handle": "france_gaulois"
+    "name": "Florian Schröder",
+    "handle": "Florian59528055"
+  },
+  {
+    "name": "Florian Azéma",
+    "handle": "FlorianAzema_81"
+  },
+  {
+    "name": "Jaroslav Foldyna",
+    "handle": "FoldynaJaroslav"
+  },
+  {
+    "name": "Alain Dumait",
+    "handle": "foucard"
+  },
+  {
+    "name": "FrontPage Magazine",
+    "handle": "fpmag"
+  },
+  {
+    "name": "Frédéric Cabrolier",
+    "handle": "Fr_Cabrolier"
+  },
+  {
+    "name": "France Jamet",
+    "handle": "FranceJamet"
   },
   {
     "name": "Marie-France Lorho",
     "handle": "FranceLorho"
   },
   {
+    "name": "Francesco Torselli",
+    "handle": "FranceTorse"
+  },
+  {
     "name": "Franck Allisio",
     "handle": "franckallisio"
   },
   {
-    "name": "@FranckenTheo",
-    "handle": "FranckenTheo"
+    "name": "Franck Ferrand",
+    "handle": "FranckFerrand"
+  },
+  {
+    "name": "Frank Magnitz",
+    "handle": "Frank_Magnitz"
+  },
+  {
+    "name": "Frank Pasemann",
+    "handle": "Frank_Pasemann"
+  },
+  {
+    "name": "Frank Franz",
+    "handle": "FrankFranz"
+  },
+  {
+    "name": "Frank Gaffney",
+    "handle": "frankgaffney"
+  },
+  {
+    "name": "Frank-Christian Hansel",
+    "handle": "FrankHansel"
+  },
+  {
+    "name": "Frank Peschel",
+    "handle": "FrankPeschelMdL"
+  },
+  {
+    "name": "Frank Scholtysek",
+    "handle": "FrankScholtysek"
+  },
+  {
+    "name": "Frank Troosters",
+    "handle": "FrankTroosters"
+  },
+  {
+    "name": "Frank van Breukelen",
+    "handle": "FrankvBreukelen"
+  },
+  {
+    "name": "Stefan Franz Kerker",
+    "handle": "franzkerker"
+  },
+  {
+    "name": "Franz Schmid",
+    "handle": "FranzSchmid_AfD"
+  },
+  {
+    "name": "Jeannette Auricht",
+    "handle": "FrauAuricht"
   },
   {
     "name": "Pierre Sautarel",
@@ -572,20 +1660,36 @@
     "handle": "fredchatillon"
   },
   {
-    "name": "Frédéric-Pierre Vos",
-    "handle": "Fredericvo79738"
-  },
-  {
     "name": "French Carcan",
     "handle": "FrenchCarcan"
+  },
+  {
+    "name": "Markus Frohnmaier",
+    "handle": "Frohnmaier_AfD"
+  },
+  {
+    "name": "Fronte Nazionale",
+    "handle": "fronte2013"
   },
   {
     "name": "Frontières",
     "handle": "Frontieresmedia"
   },
   {
+    "name": "FrRemigration",
+    "handle": "frremigration"
+  },
+  {
+    "name": "Frank Scheermesser",
+    "handle": "FScheermesser"
+  },
+  {
     "name": "Angéline Furet",
     "handle": "furet_angeline"
+  },
+  {
+    "name": "Forum pour la démocratie",
+    "handle": "fvdemocratie"
   },
   {
     "name": "Gaëtan Dussausaye",
@@ -596,16 +1700,48 @@
     "handle": "G_Peltier"
   },
   {
+    "name": "Georg Schroeter",
+    "handle": "G_Schroeter_AfD"
+  },
+  {
+    "name": "Gabriel de Chabot-Tramecourt",
+    "handle": "gabriel2chabot"
+  },
+  {
     "name": "Gabrielle Cluzel",
     "handle": "gabriellecluzel"
+  },
+  {
+    "name": "Torsten Gahler",
+    "handle": "GahlerTorsten"
+  },
+  {
+    "name": "Andreas Galau",
+    "handle": "Galau_MdL"
   },
   {
     "name": "Stéphanie Galzy",
     "handle": "GalzyStephanie"
   },
   {
+    "name": "Jean-Eudes Gannat",
+    "handle": "gannat_JEG"
+  },
+  {
+    "name": "Gerolf Annemans",
+    "handle": "gannemans"
+  },
+  {
     "name": "Garen Shnorhokian",
     "handle": "GarenShn"
+  },
+  {
+    "name": "Gates of Vienna",
+    "handle": "GatesofVienna"
+  },
+  {
+    "name": "The Gateway Pundit",
+    "handle": "gatewaypundit"
   },
   {
     "name": "Gauthier Le Bret",
@@ -616,56 +1752,184 @@
     "handle": "gbensouss"
   },
   {
-    "name": "Donum Dei",
-    "handle": "GensNostra"
+    "name": "Grégoire de Fournas",
+    "handle": "gdefournas"
+  },
+  {
+    "name": "Geoffrey Fournier",
+    "handle": "GeofFournier"
+  },
+  {
+    "name": "GeoffroyGL",
+    "handle": "geoffroygl"
   },
   {
     "name": "Geoffroy Lejeune",
     "handle": "GeoffroyLejeune"
   },
   {
-    "name": "Gérard Larcher",
-    "handle": "gerard_larcher"
+    "name": "Georg Pazderski",
+    "handle": "Georg_Pazderski"
   },
   {
-    "name": "Giacomo Firenze",
-    "handle": "GiacomoFirenze"
+    "name": "Gérault Verny",
+    "handle": "gerault_verny"
+  },
+  {
+    "name": "Gerd Mannes",
+    "handle": "GerdMannesAfD"
+  },
+  {
+    "name": "Gereon Bollmann",
+    "handle": "GereonBollmann"
+  },
+  {
+    "name": "Gerhard-Michael Welter",
+    "handle": "gerhard_welter"
+  },
+  {
+    "name": "Gerold Otten",
+    "handle": "Gerold_Otten"
+  },
+  {
+    "name": "Gerrit Huy",
+    "handle": "GerritHuy"
+  },
+  {
+    "name": "Geuzenbond",
+    "handle": "GeuzenbondNL"
+  },
+  {
+    "name": "Gideon van Meijeren",
+    "handle": "GideonvMeijeren"
+  },
+  {
+    "name": "Alexis Giersch",
+    "handle": "GierschMdB"
   },
   {
     "name": "Gilbert Collard",
     "handle": "GilbertCollard"
   },
   {
+    "name": "Gilles Lebreton",
+    "handle": "Gilles_Lebreton"
+  },
+  {
+    "name": "Gilles Pennelle",
+    "handle": "GillesPennelle"
+  },
+  {
+    "name": "Luigi Giovanni Maiorano",
+    "handle": "GioMaiorano_"
+  },
+  {
     "name": "GiorgiaMeloni",
     "handle": "GiorgiaMeloni"
+  },
+  {
+    "name": "National Youth",
+    "handle": "Giov_Nazionale"
+  },
+  {
+    "name": "Gioventù della Fiamma",
+    "handle": "gioventufiamma"
   },
   {
     "name": "Gisèle Lelouis",
     "handle": "gisele_lelouis"
   },
   {
-    "name": "@GLBouchez",
-    "handle": "GLBouchez"
+    "name": "Gabriëlle Popken",
+    "handle": "gjfpopken"
+  },
+  {
+    "name": "Albrecht Glaser",
+    "handle": "GlaserMdb"
+  },
+  {
+    "name": "Gabriel Le Senne",
+    "handle": "glesenne"
+  },
+  {
+    "name": "Génie Français",
+    "handle": "GnieFranais1"
+  },
+  {
+    "name": "Goldenretour",
+    "handle": "goldenretour"
+  },
+  {
+    "name": "Roman Golombek",
+    "handle": "GolombekRoman"
+  },
+  {
+    "name": "Gonzalo de Oro-Pulido Plaza",
+    "handle": "gonzalodeoro"
+  },
+  {
+    "name": "Matthew Goodwin",
+    "handle": "GoodwinMJ"
+  },
+  {
+    "name": "Gordon Köhler",
+    "handle": "GordonKoehlerJL"
+  },
+  {
+    "name": "Gottfried Curio",
+    "handle": "GottfriedCurio"
+  },
+  {
+    "name": "Machiel de Graaf",
+    "handle": "GraafdeMachiel"
   },
   {
     "name": "Géraldine Grangier",
     "handle": "GrangierGe"
   },
   {
-    "name": "Gregory Vanden Bruel",
-    "handle": "GregoryBruel"
+    "name": "Grégoire Houdan",
+    "handle": "gregoirehoudan"
   },
   {
     "name": "Catherine Griset",
     "handle": "GrisetCatherine"
   },
   {
+    "name": "Frank Grobe",
+    "handle": "GrobeDrFrank"
+  },
+  {
     "name": "Groupe Rassemblement National à l’Assemblée",
     "handle": "groupeRN_off"
   },
   {
+    "name": "Grzegorz Braun",
+    "handle": "GrzegorzBraun_"
+  },
+  {
+    "name": "Gerhard Schenk",
+    "handle": "GSchenkLTG"
+  },
+  {
     "name": "GTSytb",
     "handle": "GTSytb"
+  },
+  {
+    "name": "Götz Frömming",
+    "handle": "GtzFrmming"
+  },
+  {
+    "name": "Guido Crosetto",
+    "handle": "GuidoCrosetto"
+  },
+  {
+    "name": "Guido Reil",
+    "handle": "GuidoReil"
+  },
+  {
+    "name": "Guilhem Carayon",
+    "handle": "guilhemcarayon"
   },
   {
     "name": "Guillaume Bigot",
@@ -676,27 +1940,207 @@
     "handle": "Guillaume_fcqt"
   },
   {
-    "name": "@GuydhaeseleerVB",
+    "name": "Gunnar Beck",
+    "handle": "gunnar_beck"
+  },
+  {
+    "name": "Guntram Proß",
+    "handle": "GuntramPross"
+  },
+  {
+    "name": "Guy D'haeseleer",
     "handle": "GuydhaeseleerVB"
+  },
+  {
+    "name": "Gabriele Walger-Demolsky",
+    "handle": "GWalgerDemolsky"
   },
   {
     "name": "Gilles-William Goldnadel",
     "handle": "GWGoldnadel"
   },
   {
-    "name": "Hervé de Lépinau",
-    "handle": "H2Lepinau"
+    "name": "Harald Weyel",
+    "handle": "h_weyel"
   },
   {
-    "name": "Haïm Korsia",
-    "handle": "HaimKorsia"
+    "name": "Erkan Haberal",
+    "handle": "HaberalErkan"
+  },
+  {
+    "name": "Hagen Kohl",
+    "handle": "HagenKohlMdL"
+  },
+  {
+    "name": "Hakkı Öznur",
+    "handle": "HakkiOznur"
+  },
+  {
+    "name": "Jussi Halla-aho",
+    "handle": "Halla_aho"
+  },
+  {
+    "name": "Marie-Thérèse Kaiser",
+    "handle": "hallofraukaiser"
+  },
+  {
+    "name": "Hanane Mansouri",
+    "handle": "hanane_mnsr"
+  },
+  {
+    "name": "Hanna Mäntylä",
+    "handle": "hannamantyla"
+  },
+  {
+    "name": "Hannes Gnauck",
+    "handle": "Hannes_Gnauck"
+  },
+  {
+    "name": "Hanno Bachmann",
+    "handle": "hanno_bachmann"
+  },
+  {
+    "name": "Hans-Peter Hörner",
+    "handle": "hans_horner"
+  },
+  {
+    "name": "Paul-Henry Hansen-Catta",
+    "handle": "HansenCatta"
+  },
+  {
+    "name": "Hans-Jürgen Goßner",
+    "handle": "hansigossner"
+  },
+  {
+    "name": "Hans-Joachim Berg",
+    "handle": "HansJoachimBerg"
+  },
+  {
+    "name": "Hans Verreyt",
+    "handle": "HansVerreyt"
+  },
+  {
+    "name": "Harald Laatsch",
+    "handle": "haraldlaatsch"
+  },
+  {
+    "name": "Elie Hatem",
+    "handle": "hatemelie"
+  },
+  {
+    "name": "Hans-Christoph Berndt",
+    "handle": "HCBerndt"
+  },
+  {
+    "name": "Hervé de Lépinau",
+    "handle": "HdeLepinau"
+  },
+  {
+    "name": "Erich Heidkamp",
+    "handle": "HeidkampErich"
+  },
+  {
+    "name": "Heiko Wildberg",
+    "handle": "Heiko_Wildberg"
+  },
+  {
+    "name": "La Patrie",
+    "handle": "heimat_de"
+  },
+  {
+    "name": "Heinrich Löhmann",
+    "handle": "heiner_loehmann"
+  },
+  {
+    "name": "Heinrich Koch",
+    "handle": "HeinrichFKoch"
   },
   {
     "name": "Hélène Laporte",
     "handle": "HeleneLaporteRN"
   },
   {
-    "name": "Identité Libertés",
+    "name": "Helmut Seifen",
+    "handle": "Helmut_Seifen"
+  },
+  {
+    "name": "Henri de Turenne",
+    "handle": "henri2turenne"
+  },
+  {
+    "name": "Henri Temple",
+    "handle": "henritemple"
+  },
+  {
+    "name": "Herbert Mohr",
+    "handle": "herbert_mohr"
+  },
+  {
+    "name": "Heribert Friedmann",
+    "handle": "HeriFriedmann"
+  },
+  {
+    "name": "Hilaire Bouyé",
+    "handle": "HilaireBouye"
+  },
+  {
+    "name": "Karsten Hilse",
+    "handle": "HilseMdb"
+  },
+  {
+    "name": "Hannes Loth",
+    "handle": "Hobi99"
+  },
+  {
+    "name": "Holger Hentschel",
+    "handle": "HolgerHentsche5"
+  },
+  {
+    "name": "Holger Kühnlenz",
+    "handle": "HolgerKuehnlenz"
+  },
+  {
+    "name": "Jaroslav Holík",
+    "handle": "HolikJSPD"
+  },
+  {
+    "name": "Harm Rykena",
+    "handle": "HRykena"
+  },
+  {
+    "name": "Lars Hünich",
+    "handle": "Huenich"
+  },
+  {
+    "name": "Carsten Hütter",
+    "handle": "Huetter_Carsten"
+  },
+  {
+    "name": "Hugh Bronson",
+    "handle": "HughBronson_AfD"
+  },
+  {
+    "name": "Hendrikus Velzing",
+    "handle": "hvelzing"
+  },
+  {
+    "name": "Naoki Hyakuta",
+    "handle": "Hyakutajyuku"
+  },
+  {
+    "name": "Igor Korotchenko",
+    "handle": "i_korotchenko"
+  },
+  {
+    "name": "Ian Miles Cheong",
+    "handle": "ianmiles"
+  },
+  {
+    "name": "Ignacio Arsuaga",
+    "handle": "iarsuaga"
+  },
+  {
+    "name": "Identité-Libertés",
     "handle": "ID_Libertes"
   },
   {
@@ -712,32 +2156,100 @@
     "handle": "ID_LibertesOcc"
   },
   {
-    "name": "IlsOntTueKenny",
-    "handle": "IlsOntTueKenny"
+    "name": "İsmail Faruk Aksu",
+    "handle": "ifarukaksu"
   },
   {
-    "name": "imambouli",
-    "handle": "imambouli"
+    "name": "Ignacio Garriga",
+    "handle": "Igarrigavaz"
+  },
+  {
+    "name": "Ignasi Mulleras Vinzia",
+    "handle": "IgnasiMulleras"
+  },
+  {
+    "name": "Ignazio Benito Maria La Russa",
+    "handle": "Ignazio_LaRussa"
+  },
+  {
+    "name": "Der III. Weg",
+    "handle": "iii_weg"
+  },
+  {
+    "name": "Emma Illies",
+    "handle": "illwah"
+  },
+  {
+    "name": "ImbertGuyEric",
+    "handle": "imbertguyeric"
+  },
+  {
+    "name": "Olli Immonen",
+    "handle": "ImmonenOlli"
   },
   {
     "name": "Les Incorrectibles",
     "handle": "Incorrectibles"
   },
   {
+    "name": "InfoWars",
+    "handle": "infowars"
+  },
+  {
+    "name": "Ingo Hahn",
+    "handle": "IngoHahnAfD"
+  },
+  {
+    "name": "Radovan Vích",
+    "handle": "IngVich"
+  },
+  {
     "name": "Institut Iliade",
     "handle": "InstitutILIADE"
+  },
+  {
+    "name": "İbrahim Özyavuz",
+    "handle": "iozyavuz1963"
+  },
+  {
+    "name": "Riikka Purra",
+    "handle": "ir_rkp"
   },
   {
     "name": "Iris Bridier",
     "handle": "IrisBridier"
   },
   {
-    "name": "Ivan Rioufol",
-    "handle": "ivanrioufol"
+    "name": "Iris Nieland",
+    "handle": "IrisNieland"
   },
   {
-    "name": "ivoir1savage",
-    "handle": "ivoir1savage"
+    "name": "Irmhild Boßdorf",
+    "handle": "IrmhildBoss"
+  },
+  {
+    "name": "Isabel Lázaro Pina",
+    "handle": "IsabelLazaro_"
+  },
+  {
+    "name": "Isabelle Surply",
+    "handle": "isabellesurply"
+  },
+  {
+    "name": "Joachim Véliocas",
+    "handle": "islamisationfr"
+  },
+  {
+    "name": "Itamar Ben-Gvir",
+    "handle": "itamarbengvir"
+  },
+  {
+    "name": "Ivan David",
+    "handle": "IvanDav73523299"
+  },
+  {
+    "name": "Ivan Rioufol",
+    "handle": "ivanrioufol"
   },
   {
     "name": "Jordan Bardella",
@@ -748,32 +2260,156 @@
     "handle": "J_Rancoule"
   },
   {
-    "name": "Mona Jafarian",
-    "handle": "JafarianMona"
+    "name": "Jessica Schülke",
+    "handle": "j_schuelke_afd"
+  },
+  {
+    "name": "Jacek Międlar",
+    "handle": "jacekmiedlar"
+  },
+  {
+    "name": "Jack Posobiec",
+    "handle": "JackPosobiec"
+  },
+  {
+    "name": "Jacline Mouraud",
+    "handle": "JaclineMouraud"
+  },
+  {
+    "name": "Fabian Jacobi",
+    "handle": "Jacobi_Fabian"
+  },
+  {
+    "name": "Jacques Bompard",
+    "handle": "JacquesBompard"
+  },
+  {
+    "name": "Jaime María de Berenguer de Santiago",
+    "handle": "jaimeberenguer"
+  },
+  {
+    "name": "James O'Keefe",
+    "handle": "JamesOKeefeIII"
+  },
+  {
+    "name": "Jan Bollinger",
+    "handle": "Jan_Bollinger"
+  },
+  {
+    "name": "Jan Nolte",
+    "handle": "Jan_Nolte_AfD"
+  },
+  {
+    "name": "Jani Mäkelä",
+    "handle": "JaniMakelaFi"
+  },
+  {
+    "name": "Jan Laeremans",
+    "handle": "Janlaeremans"
+  },
+  {
+    "name": "Jaume Nolla i Martí",
+    "handle": "JaumeNollaiMart"
+  },
+  {
+    "name": "Jean-Baptiste Gardes",
+    "handle": "jbgardes"
+  },
+  {
+    "name": "Joffrey Bollée",
+    "handle": "JBollee"
+  },
+  {
+    "name": "Jens-Christoph Brockmann",
+    "handle": "JCBrockmann"
+  },
+  {
+    "name": "Jean-Claude Guell",
+    "handle": "jcguell"
+  },
+  {
+    "name": "Jacques Colombier",
+    "handle": "JColombierRN"
+  },
+  {
+    "name": "Jean de Belot",
+    "handle": "jdebelot"
+  },
+  {
+    "name": "Jonas Dünzel",
+    "handle": "JDunzel"
   },
   {
     "name": "JDVance",
     "handle": "JDVance"
   },
   {
-    "name": "JDVanceJDVance",
-    "handle": "JDVanceJDVance"
+    "name": "Jens Ahrends",
+    "handle": "JeAhr711"
   },
   {
     "name": "Jean Bexon",
     "handle": "jean_bexon"
   },
   {
-    "name": "Jean de Lacoste Lareymondie",
-    "handle": "jean_de_lacoste"
-  },
-  {
     "name": "Jean Messiha",
     "handle": "JeanMessiha"
   },
   {
+    "name": "Jean-Pascal Hohm",
+    "handle": "JeanPascal_Hohm"
+  },
+  {
+    "name": "Jean-Pax Méfret",
+    "handle": "JeanPaxM"
+  },
+  {
+    "name": "Jens Cotta",
+    "handle": "JensCotta"
+  },
+  {
+    "name": "Jeppe Juhl",
+    "handle": "JeppeJuhlDK"
+  },
+  {
     "name": "Jérôme Buisson",
     "handle": "jerome_buisson"
+  },
+  {
+    "name": "Jérôme Rivière",
+    "handle": "jerome_riviere"
+  },
+  {
+    "name": "Jérôme Bourbon",
+    "handle": "JeromeBourbon"
+  },
+  {
+    "name": "Jeunes UDR",
+    "handle": "jeunesudr"
+  },
+  {
+    "name": "Jean-François Gariépy",
+    "handle": "JFGariepy"
+  },
+  {
+    "name": "Jean-François Jalkh",
+    "handle": "JFJalkh"
+  },
+  {
+    "name": "Jean-Frédéric Poisson",
+    "handle": "jfpoisson78"
+  },
+  {
+    "name": "Juan de la Cruz Garriga Dómenech",
+    "handle": "JGarrigaDomenec"
+  },
+  {
+    "name": "Jens-Holger Schneider",
+    "handle": "JHSchneiderMdL"
+  },
+  {
+    "name": "Janusz Korwin-Mikke",
+    "handle": "JkmMikke"
   },
   {
     "name": "Julie Lechanteux",
@@ -788,20 +2424,72 @@
     "handle": "jllacapelle"
   },
   {
-    "name": "Javier Milei",
-    "handle": "jmilei"
+    "name": "Juan Luis Steegmann Olmedillas",
+    "handle": "jlsteeg"
   },
   {
-    "name": "JMLePain_Off",
-    "handle": "JMLePain_Off"
+    "name": "Javier Milei",
+    "handle": "JMilei"
+  },
+  {
+    "name": "Jean-Michel Iratchet",
+    "handle": "JmIratchet"
+  },
+  {
+    "name": "Jean-Marie Verani",
+    "handle": "jmverani"
+  },
+  {
+    "name": "Jussi Niinistö",
+    "handle": "jniinisto"
+  },
+  {
+    "name": "Joachim Kuhs",
+    "handle": "Joachim_Kuhs"
+  },
+  {
+    "name": "Joachim Paul",
+    "handle": "JoachimPaul_AfD"
+  },
+  {
+    "name": "Joachim Wundrak",
+    "handle": "JoachimWundrak"
+  },
+  {
+    "name": "Joana Cotar",
+    "handle": "JoanaCotar"
   },
   {
     "name": "Jocelyn Dessigny",
     "handle": "JocelynDessigny"
   },
   {
+    "name": "Jochen Haug",
+    "handle": "Jochen_Haug"
+  },
+  {
+    "name": "Jochen Kurt Roos",
+    "handle": "Jochen_K_Roos"
+  },
+  {
     "name": "Joëlle Mélin",
     "handle": "JoelleMelinRN"
+  },
+  {
+    "name": "Jörg Urban",
+    "handle": "Joerg_UrbanAfD"
+  },
+  {
+    "name": "Jörn König",
+    "handle": "JoernKoenigAfD"
+  },
+  {
+    "name": "JohanaMaurel",
+    "handle": "johanamaurel"
+  },
+  {
+    "name": "Johan Deckmyn",
+    "handle": "johandeckmyn"
   },
   {
     "name": "Jonathan Gery",
@@ -816,8 +2504,44 @@
     "handle": "JordanFlrtn"
   },
   {
+    "name": "Jordi de la Fuente",
+    "handle": "JordidelaFuente"
+  },
+  {
+    "name": "Jorge Buxadé Villalba",
+    "handle": "Jorgebuxade"
+  },
+  {
+    "name": "Jörg Prophet",
+    "handle": "JorgProphet"
+  },
+  {
+    "name": "Joris van den Oetelaar",
+    "handle": "JorisOetelaar"
+  },
+  {
     "name": "Jorys Bovet",
     "handle": "JorysB3"
+  },
+  {
+    "name": "Josef Dörr",
+    "handle": "josefdoerrmdl"
+  },
+  {
+    "name": "José Ramírez del Río",
+    "handle": "joseramirezdel2"
+  },
+  {
+    "name": "Joshua Hochart",
+    "handle": "joshuaHochart"
+  },
+  {
+    "name": "Militant",
+    "handle": "JournalMilitant"
+  },
+  {
+    "name": "Jean-Paul Garraud",
+    "handle": "JPGarraud"
   },
   {
     "name": "Jean-Philippe Tanguy",
@@ -836,6 +2560,22 @@
     "handle": "jsanchez_rn"
   },
   {
+    "name": "Jan Scharfenort",
+    "handle": "JScharfenort"
+  },
+  {
+    "name": "James Orr",
+    "handle": "jtworr"
+  },
+  {
+    "name": "Juan José Aizcorbe",
+    "handle": "JuanjoAizcorbe"
+  },
+  {
+    "name": "Jürgen Braun",
+    "handle": "JuergenBraunAfD"
+  },
+  {
     "name": "Jules Laurans",
     "handle": "Jules_Laurans"
   },
@@ -844,16 +2584,12 @@
     "handle": "JulesTorres17"
   },
   {
+    "name": "Julian Adrat",
+    "handle": "julianadrat"
+  },
+  {
     "name": "Julien Limongi",
     "handle": "julien_limongi"
-  },
-  {
-    "name": "julienbahloul",
-    "handle": "julienbahloul"
-  },
-  {
-    "name": "JulienChieze",
-    "handle": "JulienChieze"
   },
   {
     "name": "Julien Gabarron",
@@ -868,28 +2604,108 @@
     "handle": "JulietteBriens"
   },
   {
-    "name": "jussetain",
-    "handle": "jussetain"
+    "name": "Andreas Jurca",
+    "handle": "jurca_andreas"
+  },
+  {
+    "name": "Jürgen Treutler",
+    "handle": "JurgenTreutler"
+  },
+  {
+    "name": "Jussi Wihonen",
+    "handle": "jussiwihonen"
   },
   {
     "name": "Justice Pour Quentin",
     "handle": "JusticePQuentin"
   },
   {
+    "name": "Jan Wenzel Schmidt",
+    "handle": "jws_afd"
+  },
+  {
     "name": "Jean-Yves Le Gallou",
     "handle": "jylgallou"
   },
   {
-    "name": "JYYYCE",
-    "handle": "jyyyceoff_"
+    "name": "Kelly Betesh",
+    "handle": "K_Betesh"
   },
   {
     "name": "Kévin Pfeffer",
     "handle": "k_pfeffer"
   },
   {
+    "name": "Kai Stephens",
+    "handle": "KaiStephensYT"
+  },
+  {
+    "name": "Kamil Aydın",
+    "handle": "kamilaydinmhp"
+  },
+  {
+    "name": "ye",
+    "handle": "kanyewest"
+  },
+  {
+    "name": "Mevlüt Karakaya",
+    "handle": "KarakayaMevlut"
+  },
+  {
+    "name": "Karmasabitch19",
+    "handle": "karmasabitch19"
+  },
+  {
+    "name": "Karol Rabenda",
+    "handle": "KarolRabenda"
+  },
+  {
+    "name": "Karsten Bletzer",
+    "handle": "Karsten_Bletzer"
+  },
+  {
+    "name": "Katleen Bury",
+    "handle": "KatleenBury"
+  },
+  {
+    "name": "Michael Kaufmann",
+    "handle": "KaufmannAfD"
+  },
+  {
+    "name": "Kay-Uwe Ziegler",
+    "handle": "KayUweZiegler73"
+  },
+  {
+    "name": "Kazuya Hashiguchi",
+    "handle": "kazuya_sun"
+  },
+  {
+    "name": "Kazuya Kyōmoto",
+    "handle": "kazuyahkd2"
+  },
+  {
     "name": "Kroc Blanc",
     "handle": "KbgStream"
+  },
+  {
+    "name": "Katrin Ebner-Steiner",
+    "handle": "KEbnerSteiner"
+  },
+  {
+    "name": "Kim Edberg Andersen",
+    "handle": "kedbergandersen"
+  },
+  {
+    "name": "Florent de Kersauson",
+    "handle": "KersausonDe"
+  },
+  {
+    "name": "Kerstin Przygodda",
+    "handle": "KerstinMdB"
+  },
+  {
+    "name": "Jens Kestner",
+    "handle": "KestnerJens"
   },
   {
     "name": "Kevin Nader",
@@ -900,28 +2716,164 @@
     "handle": "KevinDM75"
   },
   {
-    "name": "Khan Rachel",
-    "handle": "KhanNRachel"
+    "name": "Kevork Almassian",
+    "handle": "KevorkAlmassian"
+  },
+  {
+    "name": "Bronze Age Pervert",
+    "handle": "KhalkeionGenos"
   },
   {
     "name": "KiefferALC",
     "handle": "KiefferALC"
   },
   {
+    "name": "Kiko Méndez-Monasterio",
+    "handle": "kikomonasterio"
+  },
+  {
+    "name": "Kimberley Lelaidier",
+    "handle": "KimberleyLelai2"
+  },
+  {
+    "name": "Dimitrios Kisoudis",
+    "handle": "kisoudis"
+  },
+  {
+    "name": "Klaas Slootmans",
+    "handle": "KlaasSlootmans"
+  },
+  {
+    "name": "Klaus Esser",
+    "handle": "klausesser_nrw"
+  },
+  {
+    "name": "Klaus Gagel",
+    "handle": "KlausGagelAfD"
+  },
+  {
+    "name": "Dennis Klecker",
+    "handle": "KleckerMdlAfD"
+  },
+  {
     "name": "Sarah Knafo",
     "handle": "knafo_sarah"
   },
   {
-    "name": "koxie",
-    "handle": "koxieColor"
+    "name": "Tosca Kniese",
+    "handle": "KnieseTosca"
+  },
+  {
+    "name": "Confédération",
+    "handle": "KONFEDERACJA_"
+  },
+  {
+    "name": "Konrad Berkowicz",
+    "handle": "KonradBerkowicz"
+  },
+  {
+    "name": "Engin Alan",
+    "handle": "KorgEnginAlan"
+  },
+  {
+    "name": "Kostadin Kostadinov",
+    "handle": "kostadinov1979"
+  },
+  {
+    "name": "Lena Kotré",
+    "handle": "KotreLena"
+  },
+  {
+    "name": "Maximilian Krah",
+    "handle": "KrahMax"
+  },
+  {
+    "name": "Nikolaus Kramer",
+    "handle": "KramerNikolaus"
+  },
+  {
+    "name": "Manuel Krauthausen",
+    "handle": "Krauthausen_AfD"
   },
   {
     "name": "Kriloff Sébastien",
     "handle": "KriloffS"
   },
   {
-    "name": "Borderpin Blanc",
-    "handle": "LapinBlanc0041"
+    "name": "Kristin Brinker",
+    "handle": "Kristin_Brinker"
+  },
+  {
+    "name": "Krzysztof Bosak",
+    "handle": "krzysztofbosak"
+  },
+  {
+    "name": "Krzysztof Mulawa",
+    "handle": "krzysztofmulawa"
+  },
+  {
+    "name": "Kristof Slagmulder",
+    "handle": "kslagmulder"
+  },
+  {
+    "name": "Steffen Kubitzki",
+    "handle": "KubitzkiSteffen"
+  },
+  {
+    "name": "Mario Kumpf",
+    "handle": "KumpfMario"
+  },
+  {
+    "name": "Kurt Kleinschmidt",
+    "handle": "KurtKleins90510"
+  },
+  {
+    "name": "L'Action française",
+    "handle": "L_AF_officielle"
+  },
+  {
+    "name": "Leonid Sloutski",
+    "handle": "l_slutsky"
+  },
+  {
+    "name": "VEYSSIERE Laurence",
+    "handle": "l_veyssiere"
+  },
+  {
+    "name": "Sheikki Laakso",
+    "handle": "laaksosheikki"
+  },
+  {
+    "name": "LA FURIA",
+    "handle": "lafuriaoff"
+  },
+  {
+    "name": "Bernard Lugan",
+    "handle": "LancierBengale"
+  },
+  {
+    "name": "Lars Haise",
+    "handle": "LarsHaise"
+  },
+  {
+    "name": "Lars Kuppi",
+    "handle": "LarsKuppi"
+  },
+  {
+    "name": "Lars Schieske",
+    "handle": "LarsSchieske"
+  },
+  {
+    "name": "Laura Huhtasaari",
+    "handle": "LauraHuhtasaari"
+  },
+  {
+    "name": "Laure Lavalette",
+    "handle": "laurelavalette"
+  },
+  {
+    "name": "Lauren Southern",
+    "handle": "Lauren_Southern"
   },
   {
     "name": "Laurence Ferrari",
@@ -932,12 +2884,12 @@
     "handle": "LaurenceTrochu"
   },
   {
-    "name": "Laurent Obertone",
-    "handle": "LaurentObertone"
+    "name": "Laurent Lopez",
+    "handle": "laurentlopezvar"
   },
   {
-    "name": "Laurent Wauquiez",
-    "handle": "laurentwauquiez"
+    "name": "Laurent Obertone",
+    "handle": "LaurentObertone"
   },
   {
     "name": "Lauriane Bernard",
@@ -948,20 +2900,20 @@
     "handle": "LBleuBlancRouge"
   },
   {
+    "name": "Lars Boje Mathiesen",
+    "handle": "lbmathiesen"
+  },
+  {
+    "name": "Parti libéral-démocrate de Russie",
+    "handle": "ldprparty"
+  },
+  {
     "name": "Le_Crapaud47",
     "handle": "Le_Crapaud47"
   },
   {
-    "name": "@le_jarl",
+    "name": "Le Jarl",
     "handle": "le_jarl"
-  },
-  {
-    "name": "Léa Salamé",
-    "handle": "leasalame"
-  },
-  {
-    "name": "Thierry Belin",
-    "handle": "lebelino2"
   },
   {
     "name": "Robert Le Bourgeois",
@@ -972,16 +2924,84 @@
     "handle": "LeContempIateur"
   },
   {
-    "name": "Maxime Legay",
-    "handle": "LegayMaxime1"
+    "name": "Lectures françaises",
+    "handle": "lecturefrancais"
+  },
+  {
+    "name": "Leena Meri",
+    "handle": "leena_meri"
+  },
+  {
+    "name": "Leif-Erik Holm",
+    "handle": "Leif_Erik_Holm"
+  },
+  {
+    "name": "磊哥聊政经",
+    "handle": "leige88888"
   },
   {
     "name": "Le JDD",
     "handle": "leJDD"
   },
   {
+    "name": "Le Média Pour Tous",
+    "handle": "lemediapourtous"
+  },
+  {
+    "name": "Sascha Lensing",
+    "handle": "LensingSascha"
+  },
+  {
+    "name": "Victor Lenta",
+    "handle": "LentaVictor"
+  },
+  {
+    "name": "Parti de la France",
+    "handle": "lepartidelafr"
+  },
+  {
+    "name": "Les Horaces",
+    "handle": "les_horaces"
+  },
+  {
+    "name": "Les Identitaires",
+    "handle": "les_ids"
+  },
+  {
+    "name": "Les Localistes",
+    "handle": "leslocalistes"
+  },
+  {
+    "name": "Régis Le Sommier",
+    "handle": "LeSommierRgis"
+  },
+  {
     "name": "LesParentsVigil",
     "handle": "LesParentsVigil"
+  },
+  {
+    "name": "L'Étudiant libre",
+    "handle": "letudiant_libre"
+  },
+  {
+    "name": "Liberto Senderos Oliva",
+    "handle": "LibertoMSO"
+  },
+  {
+    "name": "Lidewij de Vos",
+    "handle": "lidewij_devos"
+  },
+  {
+    "name": "Radio Courtoisie",
+    "handle": "Ligne__Droite"
+  },
+  {
+    "name": "Peer Lilienthal",
+    "handle": "LilienthalPeer"
+  },
+  {
+    "name": "Daniel Lindenschmid",
+    "handle": "LindenschmidAfD"
   },
   {
     "name": "L’Infiltré",
@@ -992,16 +3012,48 @@
     "handle": "Lionel_Tivoli"
   },
   {
-    "name": "https://x.com/livio_lbs",
-    "handle": "livio_lbs"
+    "name": "Lisabethdanj",
+    "handle": "lisabethdanj"
+  },
+  {
+    "name": "Lisette Pollet",
+    "handle": "LisettePollet"
+  },
+  {
+    "name": "Livio (Cocarde étudiante)",
+    "handle": "Livio_lbs"
   },
   {
     "name": "Laurent Jacobelli",
     "handle": "ljacobelli"
   },
   {
+    "name": "María de los Llanos Massó Linares",
+    "handle": "LlanosMasso"
+  },
+  {
     "name": "Les Natifs",
     "handle": "LNatifs"
+  },
+  {
+    "name": "Loek van Wely",
+    "handle": "loekvanwely"
+  },
+  {
+    "name": "Lola Martín San Cristóbal",
+    "handle": "LolaMartinSC"
+  },
+  {
+    "name": "Christian Loose",
+    "handle": "Loose_AfD"
+  },
+  {
+    "name": "Aurélien Lopez-Liguori",
+    "handle": "LopezLiguori"
+  },
+  {
+    "name": "Emanuele Loperfido",
+    "handle": "LopezPn"
   },
   {
     "name": "Loreine_LAD",
@@ -1010,10 +3062,6 @@
   {
     "name": "Louis Aliot",
     "handle": "louis_aliot"
-  },
-  {
-    "name": "Louis_DucAnjou",
-    "handle": "Louis_DucAnjou"
   },
   {
     "name": "Louis de Raguenel",
@@ -1028,16 +3076,76 @@
     "handle": "louiselzeu"
   },
   {
+    "name": "Laurence Fox",
+    "handle": "LozzaFox"
+  },
+  {
     "name": "Laurence Robert-Dehault",
     "handle": "LRDehault"
+  },
+  {
+    "name": "Lucas Sztandarowski",
+    "handle": "lsztandarowski"
+  },
+  {
+    "name": "Lubomír Volný",
+    "handle": "lubomir_volny"
+  },
+  {
+    "name": "Lucas Gage",
+    "handle": "LucasGageX"
+  },
+  {
+    "name": "Lucia Albano",
+    "handle": "Lucia__Albano"
+  },
+  {
+    "name": "Lucy Georges",
+    "handle": "LucyMotherOf4"
+  },
+  {
+    "name": "Ludovic Pajot",
+    "handle": "ludovicpajot"
+  },
+  {
+    "name": "Luis Gestoso de Miguel",
+    "handle": "LuisGestoso"
+  },
+  {
+    "name": "Lulu Ranne",
+    "handle": "LuluRanne"
+  },
+  {
+    "name": "Lütfi Kaşıkçı",
+    "handle": "lutfikasikci"
+  },
+  {
+    "name": "Lutz Hecker",
+    "handle": "lutzhecker_mdl"
+  },
+  {
+    "name": "Lydia Funke",
+    "handle": "LydiaFunke3"
   },
   {
     "name": "Marie Dauchy",
     "handle": "M_Dauchy"
   },
   {
-    "name": "@Maaroufi9",
-    "handle": "Maaroufi9"
+    "name": "Mariana Iris Harder-Kühnel",
+    "handle": "M_HarderKuehnel"
+  },
+  {
+    "name": "Muhammed Levent Bülbül",
+    "handle": "M_Levent_Bulbul"
+  },
+  {
+    "name": "Martin Reichardt",
+    "handle": "M_Reichardt_AfD"
+  },
+  {
+    "name": "Juha Mäenpää",
+    "handle": "maenpaa_juha"
   },
   {
     "name": "Magelya",
@@ -1048,12 +3156,60 @@
     "handle": "MagLincorrect"
   },
   {
+    "name": "Gabrielle Mailbeck",
+    "handle": "MailbeckG"
+  },
+  {
+    "name": "Veikko Vallin",
+    "handle": "MailVeikko"
+  },
+  {
+    "name": "María Magdalena Nevado del Campo",
+    "handle": "malenanevado"
+  },
+  {
+    "name": "Malika Sorel",
+    "handle": "MalikaSorel"
+  },
+  {
+    "name": "Masha Malinovskaya",
+    "handle": "MalinovskayaMa"
+  },
+  {
+    "name": "António Maló de Abreu",
+    "handle": "MalodeAbreu"
+  },
+  {
+    "name": "Malte Kaufmann",
+    "handle": "MalteKaufmann"
+  },
+  {
     "name": "Mathilde Androuët",
     "handle": "mandrouet"
   },
   {
+    "name": "Manfred Schiller",
+    "handle": "ManfredAfD"
+  },
+  {
+    "name": "Manuel Jesús Acosta Elías",
+    "handle": "ManuelAcosta69"
+  },
+  {
+    "name": "Marc Jongen",
+    "handle": "Marc_Jongen"
+  },
+  {
+    "name": "Marc Bernhard",
+    "handle": "MarcBernhardAfD"
+  },
+  {
     "name": "Marc de Fleurian",
     "handle": "MarcDeFleurian"
+  },
+  {
+    "name": "Marcel Goldammer",
+    "handle": "MarcelBelmondo"
   },
   {
     "name": "Marc Guyon",
@@ -1064,8 +3220,48 @@
     "handle": "MarchioMatthieu"
   },
   {
-    "name": "@margueritestern",
+    "name": "Marcos Rodríguez Font",
+    "handle": "MarcosSQGAT"
+  },
+  {
+    "name": "Marcus Bühl",
+    "handle": "Marcus_Buehl"
+  },
+  {
+    "name": "Marcus Resch",
+    "handle": "MarcusReschMdL"
+  },
+  {
+    "name": "Marek Erfurth",
+    "handle": "MarekErfurth"
+  },
+  {
+    "name": "Maria Teresa Bellucci",
+    "handle": "MaresaBellucci"
+  },
+  {
+    "name": "Margarita de la Pisa Carrión",
+    "handle": "MargaPisa"
+  },
+  {
+    "name": "Margaux Taillefer",
+    "handle": "margauxtaillef2"
+  },
+  {
+    "name": "Margret Wendt",
+    "handle": "Marget_Wendt"
+  },
+  {
+    "name": "Marguerite Stern",
     "handle": "margueritestern"
+  },
+  {
+    "name": "Marian Kotleba",
+    "handle": "MarianKotleba"
+  },
+  {
+    "name": "Karla Maříková",
+    "handle": "MarikovaKarla"
   },
   {
     "name": "Marine Hamelet",
@@ -1080,7 +3276,63 @@
     "handle": "MarionMarechal"
   },
   {
-    "name": "MassonBryan",
+    "name": "Mari Rantanen",
+    "handle": "MariPSRantanen"
+  },
+  {
+    "name": "Manuel Mariscal Zabala",
+    "handle": "MariscalZabala"
+  },
+  {
+    "name": "Markus Walbrunn",
+    "handle": "Markus_Walbrunn"
+  },
+  {
+    "name": "Markus Matzerath",
+    "handle": "MarkusMatzerath"
+  },
+  {
+    "name": "Marcin Sypniewski",
+    "handle": "MarSypniewski"
+  },
+  {
+    "name": "Martin Hess",
+    "handle": "Martin_Hess_MdB"
+  },
+  {
+    "name": "Martin Sichert",
+    "handle": "Martin_Sichert"
+  },
+  {
+    "name": "Martina Jost",
+    "handle": "MartinaJostMdL"
+  },
+  {
+    "name": "Martina Uhr",
+    "handle": "MartinaUhrMdB"
+  },
+  {
+    "name": "Martin Böhm",
+    "handle": "MartinBoehmAfD"
+  },
+  {
+    "name": "Martin Huber",
+    "handle": "MartinHuberAfD"
+  },
+  {
+    "name": "Martin Sellner",
+    "handle": "MartinSellner_"
+  },
+  {
+    "name": "Mary Khan",
+    "handle": "Mary_Khan94"
+  },
+  {
+    "name": "Stefan Marzischewski-Drewes",
+    "handle": "Marzischewski1"
+  },
+  {
+    "name": "Bryan Masson",
     "handle": "MassonBryan"
   },
   {
@@ -1088,12 +3340,36 @@
     "handle": "mathildeklotgen"
   },
   {
+    "name": "Matthias Joa",
+    "handle": "MatthiasJoa_AfD"
+  },
+  {
+    "name": "Matthias Helferich",
+    "handle": "MatthiasMdb"
+  },
+  {
     "name": "Matthias Renault",
     "handle": "MatthiasRN"
   },
   {
+    "name": "Matthias Vogler",
+    "handle": "MatthiasVogler2"
+  },
+  {
+    "name": "Pirkko Mattila",
+    "handle": "MattilaPirkko"
+  },
+  {
+    "name": "Matthias Büttner",
+    "handle": "MatzeBuettner"
+  },
+  {
     "name": "Maud Koffler",
     "handle": "MaudPK"
+  },
+  {
+    "name": "Mauri Peltokangas",
+    "handle": "mauripeltokang2"
   },
   {
     "name": "Kévin Mauvieux",
@@ -1104,128 +3380,564 @@
     "handle": "MaximeAmblard5"
   },
   {
+    "name": "Maxime Thiébaut",
+    "handle": "MaximeThiebaut"
+  },
+  {
+    "name": "Maximilian Kneller",
+    "handle": "maxkneller"
+  },
+  {
+    "name": "Mazaly Aguilar",
+    "handle": "MazalyAguilar"
+  },
+  {
     "name": "Mathieu Bock-Côté",
     "handle": "mbockcote"
+  },
+  {
+    "name": "Marie-Christine Arnautu",
+    "handle": "MCArnautu"
   },
   {
     "name": "MCarolineLePen",
     "handle": "MCarolineLePen"
   },
   {
+    "name": "Rüdiger Lucassen",
+    "handle": "MdB_Lucassen"
+  },
+  {
+    "name": "Arne Raue",
+    "handle": "MdBArneRaue"
+  },
+  {
+    "name": "Vanessa Behrendt",
+    "handle": "MdlBehrendt"
+  },
+  {
+    "name": "Stephan Bothe",
+    "handle": "MdlBothe"
+  },
+  {
+    "name": "Jörg Dornau",
+    "handle": "MdLDornau"
+  },
+  {
+    "name": "Thomas de Jesus Fernandes",
+    "handle": "MdLFernandes"
+  },
+  {
+    "name": "Daniel Wald",
+    "handle": "MdlWald"
+  },
+  {
+    "name": "Rocío De Meer Méndez",
+    "handle": "MeerRocio"
+  },
+  {
+    "name": "Maurice Meeuwissen",
+    "handle": "MeeuwissenNL"
+  },
+  {
+    "name": "Mehmet Günal",
+    "handle": "mehmetgunal07"
+  },
+  {
+    "name": "Mehmet Parsak",
+    "handle": "mehmetparsak"
+  },
+  {
+    "name": "Mehmet Taytak",
+    "handle": "MehmetTaytakMHP"
+  },
+  {
+    "name": "Johannes Meier",
+    "handle": "MeierMdL"
+  },
+  {
+    "name": "Mélanie Disdier",
+    "handle": "melanie_disdier"
+  },
+  {
+    "name": "Mélissa Nemesis",
+    "handle": "melissa_nemesis"
+  },
+  {
     "name": "Robert Ménard",
     "handle": "Menard_off"
+  },
+  {
+    "name": "Lavinia Mennuni",
+    "handle": "MennuniLavinia"
+  },
+  {
+    "name": "Mehmet Erdoğan",
+    "handle": "merdogan_48"
+  },
+  {
+    "name": "Manuel Mestre Barea",
+    "handle": "MestreManuel"
+  },
+  {
+    "name": "Harald Meußgeier",
+    "handle": "MeuHarald"
   },
   {
     "name": "Pierre Meurin",
     "handle": "Meurin_P"
   },
   {
-    "name": "Meyerhabib",
-    "handle": "Meyerhabib"
+    "name": "Knuth Meyer-Soltau",
+    "handle": "MeyerSoltauAfD"
+  },
+  {
+    "name": "Martin Braukmann",
+    "handle": "MFBraukmann"
+  },
+  {
+    "name": "Parti d'action nationaliste",
+    "handle": "MHP_Bilgi"
+  },
+  {
+    "name": "Yaşar Karadağ",
+    "handle": "mhpyasarkaradag"
+  },
+  {
+    "name": "Micha Fehre",
+    "handle": "micha_fehre"
   },
   {
     "name": "Michel Guiniot",
     "handle": "MichelGuiniot"
   },
   {
-    "name": "@MichelOnfray4",
+    "name": "Michelle Malkin",
+    "handle": "michellemalkin"
+  },
+  {
+    "name": "Michel Onfray",
     "handle": "MichelOnfray4"
+  },
+  {
+    "name": "Francesco Michelotti",
+    "handle": "MichelottiF"
   },
   {
     "name": "Michèle Martinez",
     "handle": "MichleMartinez3"
   },
   {
-    "name": "MigeotM",
-    "handle": "MigeotM"
+    "name": "Miguel Klauß",
+    "handle": "Miguel_Klauss"
+  },
+  {
+    "name": "Mouvement Notre patrie",
+    "handle": "MiHazank"
+  },
+  {
+    "name": "Mikael Jansson",
+    "handle": "MikaelJansson8"
+  },
+  {
+    "name": "Mika Niikko",
+    "handle": "mikaniikko"
+  },
+  {
+    "name": "Mike Moncsek",
+    "handle": "Mike_Moncsek"
+  },
+  {
+    "name": "Mikkel Bjørn",
+    "handle": "mikkel_bjorn"
   },
   {
     "name": "Mila Orriols",
     "handle": "milafique"
   },
   {
+    "name": "Milan Mazurek",
+    "handle": "MilanMazurek"
+  },
+  {
+    "name": "Milan Uhrík",
+    "handle": "MilanUhrik"
+  },
+  {
+    "name": "Minna Reijonen",
+    "handle": "minnareijonen"
+  },
+  {
+    "name": "Mireille d'Ornano",
+    "handle": "MireilledOrnano"
+  },
+  {
+    "name": "Mustafa Kalaycı",
+    "handle": "MKalayci42"
+  },
+  {
     "name": "Marine Le Pen",
     "handle": "MLP_officiel"
+  },
+  {
+    "name": "Stefan Möller",
+    "handle": "MoellerAfD"
+  },
+  {
+    "name": "Rocío Monasterio",
+    "handle": "monasterioR"
+  },
+  {
+    "name": "Mònica Lora Cisquer",
+    "handle": "MonicaLora_"
   },
   {
     "name": "Thibaut Monnier",
     "handle": "MonnierThibaut"
   },
   {
-    "name": "https://x.com/MontreTaCroix",
-    "handle": "MontreTaCroix"
+    "name": "Matthias Moosdorf",
+    "handle": "moosdorfmdb"
   },
   {
     "name": "Jean-Marc Morandini",
     "handle": "morandiniblog"
   },
   {
+    "name": "Pierre Morel-À-L'Huissier",
+    "handle": "MorelPierre"
+  },
+  {
+    "name": "MossaPalatina",
+    "handle": "mossapalatina"
+  },
+  {
+    "name": "Mouvement Fascisme et Liberté",
+    "handle": "moviemto"
+  },
+  {
+    "name": "Michał Połuboczek",
+    "handle": "MPoluboczek"
+  },
+  {
+    "name": "Andreas Mrosek",
+    "handle": "mrosek1958"
+  },
+  {
+    "name": "Mouvement Social Flamme Tricolore",
+    "handle": "MSFiamma"
+  },
+  {
+    "name": "Marvin Neumann",
+    "handle": "mt_neumann"
+  },
+  {
+    "name": "Muharrem Varlı",
+    "handle": "muharremvarli01"
+  },
+  {
+    "name": "Mustafa Destici",
+    "handle": "Mustafa_Destici"
+  },
+  {
     "name": "Matthieu Valet",
     "handle": "mvalet_officiel"
   },
   {
-    "name": "@NadiaGeerts",
-    "handle": "NadiaGeerts"
+    "name": "Marc Vallendar",
+    "handle": "MVallendar"
   },
   {
-    "name": "Nadine Lechon",
-    "handle": "nadinelechon"
+    "name": "Myriane Houplain",
+    "handle": "myrianehouplain"
   },
   {
-    "name": "naimamfaddel",
-    "handle": "naimamfaddel"
+    "name": "Mouvement national-démocrate",
+    "handle": "NatDem_fr"
   },
   {
     "name": "Nathalie Da Conceicao Carvalho",
     "handle": "NathCarvalho91"
   },
   {
-    "name": "@Nation_x_",
+    "name": "Mouvement Nation",
     "handle": "Nation_x_"
+  },
+  {
+    "name": "Les Nationalistes",
+    "handle": "nationalistesfr"
+  },
+  {
+    "name": "Nelson Chaudon",
+    "handle": "nelsonchaudon"
+  },
+  {
+    "name": "Nemanja Sarovic",
+    "handle": "NemanjaSarovic"
+  },
+  {
+    "name": "Nerea Alzola Álvarez",
+    "handle": "nereaalzola"
+  },
+  {
+    "name": "Benjamin Netanyahu",
+    "handle": "netanyahu"
+  },
+  {
+    "name": "Christoph Neumann",
+    "handle": "Neumann_AfD"
+  },
+  {
+    "name": "The New American",
+    "handle": "NewAmericanMag"
+  },
+  {
+    "name": "Newsmax",
+    "handle": "NEWSMAX"
+  },
+  {
+    "name": "Natalia Fedorovych",
+    "handle": "NFedorovych"
+  },
+  {
+    "name": "Anna Nguyen",
+    "handle": "nguyen_afd"
+  },
+  {
+    "name": "Nadine Hoffmann",
+    "handle": "NHoffmannAfDTh"
+  },
+  {
+    "name": "Nick Fuentes",
+    "handle": "NickJFuentes"
+  },
+  {
+    "name": "Nicolas Bay",
+    "handle": "NicolasBay_"
   },
   {
     "name": "Nicolas Boutin",
     "handle": "NicolasBoutin11"
   },
   {
+    "name": "Nicolas Dhuicq",
+    "handle": "nicolasdhuicq"
+  },
+  {
+    "name": "Nicolas Faure",
+    "handle": "nicolasfaure89"
+  },
+  {
+    "name": "Nicolaus Fest",
+    "handle": "nicolaus_fest"
+  },
+  {
+    "name": "Nicole Höchst",
+    "handle": "Nicole_Hoechst"
+  },
+  {
+    "name": "Nicole Hess",
+    "handle": "NicoleHessMdB"
+  },
+  {
+    "name": "Nic Peter Vogel",
+    "handle": "NicVogel_AfD"
+  },
+  {
+    "name": "NIUS",
+    "handle": "niusde_"
+  },
+  {
+    "name": "Norbert Kleinwächter",
+    "handle": "NKleinwaechter"
+  },
+  {
     "name": "Nicolas Meizonnet",
     "handle": "NMeizonnet"
+  },
+  {
+    "name": "Noam Federman",
+    "handle": "noamfed"
+  },
+  {
+    "name": "Dirk Nockemann",
+    "handle": "NockemannDirk"
   },
   {
     "name": "Constantin - Nobert",
     "handle": "norbert_fr"
   },
   {
+    "name": "Noua Dreaptă",
+    "handle": "noua_dreapta"
+  },
+  {
+    "name": "Nouvelle École",
+    "handle": "Nouvelle__Ecole"
+  },
+  {
+    "name": "Nouvel espoir",
+    "handle": "Nowa_Nadzieja_"
+  },
+  {
+    "name": "Nye Borgerlige",
+    "handle": "NyeBorgerlige"
+  },
+  {
+    "name": "Oliver Kirchner",
+    "handle": "O_KirchnerAfD"
+  },
+  {
+    "name": "Oleh Tyahnybok",
+    "handle": "o_tiahnybok"
+  },
+  {
+    "name": "One America News Network",
+    "handle": "OANN"
+  },
+  {
     "name": "Objectif Remigration",
     "handle": "ObjectifRemi"
+  },
+  {
+    "name": "Ⓜ Obsevydial Ⓜ",
+    "handle": "obsevydial"
+  },
+  {
+    "name": "Arthur Österle",
+    "handle": "OesterleArthur"
+  },
+  {
+    "name": "Jim Dowson",
+    "handle": "OfficialJDowson"
   },
   {
     "name": "Alain Soral",
     "handle": "officielsoral"
   },
   {
+    "name": "Okdiario",
+    "handle": "okdiario"
+  },
+  {
+    "name": "Olaf Hilmer",
+    "handle": "OlafHilmer"
+  },
+  {
+    "name": "Olga Petersen",
+    "handle": "OlgaPetersenAfD"
+  },
+  {
+    "name": "Oliver Janich",
+    "handle": "OliverJanich"
+  },
+  {
+    "name": "Olivier Fayssat",
+    "handle": "OlivierFayssat"
+  },
+  {
     "name": "Omerta",
-    "handle": "omertamedia"
+    "handle": "Omerta_officiel"
+  },
+  {
+    "name": "Omid Najafi",
+    "handle": "omidnajafi_afd"
+  },
+  {
+    "name": "OOC_RN",
+    "handle": "ooc_rn"
+  },
+  {
+    "name": "Denis Häußer",
+    "handle": "orson_74"
+  },
+  {
+    "name": "Ortwin Depoortere",
+    "handle": "OrtwinDepo"
+  },
+  {
+    "name": "Óscar Fernández Calle",
+    "handle": "OscarFdezCalle"
+  },
+  {
+    "name": "Olaf Schwaier",
+    "handle": "OSchwaierMdL"
+  },
+  {
+    "name": "Oskar Lipp",
+    "handle": "oskar_lipp"
+  },
+  {
+    "name": "Oskar Atzinger",
+    "handle": "OskarAtzinger"
+  },
+  {
+    "name": "Otto Strauß",
+    "handle": "ostraussmdb"
   },
   {
     "name": "Où va ma France ?",
     "handle": "ou_va_ma_France"
   },
   {
+    "name": "Lisa Haddad",
+    "handle": "OuizaHaddad"
+  },
+  {
+    "name": "Nick Land",
+    "handle": "Outsideness"
+  },
+  {
+    "name": "Avi Yemini",
+    "handle": "OzraeliAvi"
+  },
+  {
     "name": "Pauline Condomines",
     "handle": "p_condomines"
+  },
+  {
+    "name": "Hans-Thomas Tillschneider",
+    "handle": "P_Plattform"
   },
   {
     "name": "Philippe Vardon",
     "handle": "P_Vardon"
   },
   {
+    "name": "Pablo Sáez Alonso-Muñumer",
+    "handle": "PabloSaezAM"
+  },
+  {
+    "name": "Pamela Geller",
+    "handle": "PamelaGeller"
+  },
+  {
     "name": "🇨🇵🌿Pandeamonium1233🇨🇵",
     "handle": "Pandeamonium121"
   },
   {
+    "name": "Papaquipaie",
+    "handle": "papaquipaie"
+  },
+  {
     "name": "Caroline Parmentier",
     "handle": "Parmentier_RN"
+  },
+  {
+    "name": "Chega",
+    "handle": "PartidoCHEGA"
+  },
+  {
+    "name": "Maram Susli",
+    "handle": "Partisangirl"
+  },
+  {
+    "name": "Union des droites pour la République",
+    "handle": "partiudr"
+  },
+  {
+    "name": "Pascal Lepetit",
+    "handle": "pascallepexj8"
   },
   {
     "name": "Pascal Praud",
@@ -1236,100 +3948,464 @@
     "handle": "PasNotreEurope"
   },
   {
+    "name": "Pasquale Maietta",
+    "handle": "PASQUALEMAIETT1"
+  },
+  {
+    "name": "Passage Publishing",
+    "handle": "PassagePress"
+  },
+  {
+    "name": "Patricia de la Heras Fernández",
+    "handle": "PatriciadlHeras"
+  },
+  {
+    "name": "Patrick Andreas Bauer",
+    "handle": "PatrickAndreasB"
+  },
+  {
     "name": "Patriotes pour l’Europe 🇫🇷",
-    "handle": "patrioteseurope"
+    "handle": "PatriotesEurope"
+  },
+  {
+    "name": "Patriotes pour l’Europe",
+    "handle": "PatriotsEP"
+  },
+  {
+    "name": "Patriotes.eu",
+    "handle": "PatriotsEU"
+  },
+  {
+    "name": "Armin-Paul Hampel",
+    "handle": "Paul_Hampel_BT"
+  },
+  {
+    "name": "Paul Podolay",
+    "handle": "Paul_Podolay"
+  },
+  {
+    "name": "Paul Schmidt",
+    "handle": "PaulSchmidt_MdB"
+  },
+  {
+    "name": "Paul-Joachim Timm",
+    "handle": "PaulTimm_AfD"
+  },
+  {
+    "name": "Pablo Juan Calvo Liste",
+    "handle": "pcalvoliste"
+  },
+  {
+    "name": "Le Parti des Européens",
+    "handle": "PDesEuropeens"
+  },
+  {
+    "name": "Pedro Fernández Hernández",
+    "handle": "pedro_fhz"
+  },
+  {
+    "name": "Peggy Heitmann",
+    "handle": "peggyrieg"
+  },
+  {
+    "name": "Pernille Vermund",
+    "handle": "pernillevermund"
+  },
+  {
+    "name": "Parti des Finlandais",
+    "handle": "persut"
+  },
+  {
+    "name": "Peter Boehringer",
+    "handle": "PeterBoehringer"
+  },
+  {
+    "name": "Peter Bohnhof",
+    "handle": "PeterBohnhofMdB"
+  },
+  {
+    "name": "Peter Brimelow",
+    "handle": "peterbrimelow"
+  },
+  {
+    "name": "Peter Drenske",
+    "handle": "PeterDrenske"
+  },
+  {
+    "name": "Peter Felser",
+    "handle": "PeterFelser"
+  },
+  {
+    "name": "Petra Federau",
+    "handle": "PetraFederau"
+  },
+  {
+    "name": "Petr Bystron",
+    "handle": "PetrBystronAfD"
+  },
+  {
+    "name": "Pierre-Henri Carbonnel",
+    "handle": "PH_82000"
+  },
+  {
+    "name": "Philippe Loiseau",
+    "handle": "ph_loiseau"
   },
   {
     "name": "Philippe Schreck",
     "handle": "Ph_Schreck"
   },
   {
+    "name": "Philippe de Beauregard",
+    "handle": "Phdebeauregard"
+  },
+  {
     "name": "Philippe de Villiers",
     "handle": "PhdeVilliers"
   },
   {
-    "name": "Philippe Lottiaux",
-    "handle": "phlottiaux"
+    "name": "Philippe Eymery",
+    "handle": "PhilippeEymery"
+  },
+  {
+    "name": "Philippe Herlin",
+    "handle": "philippeherlin"
+  },
+  {
+    "name": "Philippe Murer",
+    "handle": "PhilippeMurer"
+  },
+  {
+    "name": "Philippe Olivier",
+    "handle": "PhOlivierRN"
+  },
+  {
+    "name": "Pierluigi Biondi",
+    "handle": "PierluigiBiondi"
   },
   {
     "name": "Pierre Gentillet",
     "handle": "Pierre_GTIL"
   },
   {
-    "name": "Pierrick Berteloot Ⓜ️",
+    "name": "Pierre Lamely",
+    "handle": "Pierre_Lamely"
+  },
+  {
+    "name": "Pierre Jovanovic",
+    "handle": "pierrejovanovic"
+  },
+  {
+    "name": "Pierrick Berteloot",
     "handle": "pierrickbrtlo"
+  },
+  {
+    "name": "Pierre Pinto",
+    "handle": "pinto_pierre"
+  },
+  {
+    "name": "Pirkko Ruohonen-Lerner",
+    "handle": "PirkkoRL"
+  },
+  {
+    "name": "PM_ViktorOrban",
+    "handle": "pm_viktororban"
+  },
+  {
+    "name": "Paul-Marie Coûteaux",
+    "handle": "pmcouteaux"
+  },
+  {
+    "name": "Pierre-Nicolas Nups",
+    "handle": "pn_nups"
   },
   {
     "name": "Parti National Breton",
     "handle": "pnbsbb"
   },
   {
-    "name": "https://x.com/PoliceRealites",
+    "name": "André Poggenburg",
+    "handle": "poggenburgandre"
+  },
+  {
+    "name": "Jürgen Pohl",
+    "handle": "Pohl_mdb"
+  },
+  {
+    "name": "Police & Réalités",
     "handle": "PoliceRealites"
+  },
+  {
+    "name": "Céline Porquet Ⓜ",
+    "handle": "porquetceline"
   },
   {
     "name": "Pierre-Romain Thionnet",
     "handle": "pr_thionnet"
   },
   {
+    "name": "Josef Nerušil",
+    "handle": "prazsky_espedak"
+  },
+  {
+    "name": "Colin Prévoteau du Clary",
+    "handle": "prevoteau_clary"
+  },
+  {
+    "name": "Paul Joseph Watson",
+    "handle": "PrisonPlanet"
+  },
+  {
+    "name": "Lothar Maier",
+    "handle": "ProfMaier"
+  },
+  {
+    "name": "Zühal Topçu",
+    "handle": "profzuhaltopcu"
+  },
+  {
+    "name": "Jan Przybył",
+    "handle": "przyby_jan"
+  },
+  {
     "name": "Wolf",
     "handle": "PsyGuy007"
   },
   {
-    "name": "@Psyhodelikus",
+    "name": "Psyhodelik",
     "handle": "Psyhodelikus"
+  },
+  {
+    "name": "Paul Weston",
+    "handle": "PWestoff"
+  },
+  {
+    "name": "Marcel Queckemeyer",
+    "handle": "queckemeyer_afd"
   },
   {
     "name": "Quentin Gérard",
     "handle": "quentingerard_"
   },
   {
-    "name": "quoicoubologue",
+    "name": "Le Quoicoubologue",
     "handle": "quoicoubologue"
   },
   {
+    "name": "Roland Hartwig",
+    "handle": "R_Hartwig_AfD"
+  },
+  {
+    "name": "Bruno Rachiele",
+    "handle": "RachieleBruno"
+  },
+  {
+    "name": "Rada Laykova",
+    "handle": "RadaLaykova"
+  },
+  {
+    "name": "Radek Rozvoral",
+    "handle": "RadekRozvoral"
+  },
+  {
+    "name": "Radim Fiala",
+    "handle": "RadimFialacz"
+  },
+  {
+    "name": "Radio Courtoisie",
+    "handle": "radiocourtoisie"
+  },
+  {
     "name": "radioGenoa",
-    "handle": "radioGenoa"
+    "handle": "RadioGenoa"
   },
   {
     "name": "Radouan Kourak",
     "handle": "radouan_kourak"
   },
   {
-    "name": "Olivier Rafowicz",
-    "handle": "RAFOrafo"
+    "name": "Rafa Lomana",
+    "handle": "RafaLomana"
   },
   {
-    "name": "raphpaillot",
-    "handle": "raphpaillot"
+    "name": "Raffaele Fitto",
+    "handle": "RaffaeleFitto"
+  },
+  {
+    "name": "Rainer Rahn",
+    "handle": "rainer_rahn"
+  },
+  {
+    "name": "Rainer Galla",
+    "handle": "RainerGalla"
+  },
+  {
+    "name": "Ramazan Kaşlı",
+    "handle": "Ramazannkasli"
+  },
+  {
+    "name": "Rami Lehto",
+    "handle": "RamiLehto1973"
+  },
+  {
+    "name": "Paul Ray Ramsey",
+    "handle": "ramzpaul"
+  },
+  {
+    "name": "Raphaël Leroux",
+    "handle": "raphaelleroux05"
+  },
+  {
+    "name": "Le Raptor",
+    "handle": "RaptorDissident"
   },
   {
     "name": "Le raptor",
     "handle": "RaptorVsWild"
   },
   {
+    "name": "Rasmus Paludan",
+    "handle": "RasmusPaludan"
+  },
+  {
+    "name": "Raymond Ibrahim",
+    "handle": "RaymondIbrahim5"
+  },
+  {
+    "name": "Ricardo Chamorro Delmo",
+    "handle": "rchamode"
+  },
+  {
+    "name": "Alex Jones",
+    "handle": "RealAlexJones"
+  },
+  {
+    "name": "Candace Owens",
+    "handle": "RealCandaceO"
+  },
+  {
     "name": "realDonaldTrump",
     "handle": "realDonaldTrump"
+  },
+  {
+    "name": "Rainer Gross",
+    "handle": "RealRainerGross"
+  },
+  {
+    "name": "Stew Peters",
+    "handle": "realstewpeters"
+  },
+  {
+    "name": "The Rebel Media",
+    "handle": "RebelNewsOnline"
+  },
+  {
+    "name": "Reccino Van Lommel",
+    "handle": "reccino"
+  },
+  {
+    "name": "Christian Reck",
+    "handle": "Reck_AfD"
+  },
+  {
+    "name": "Reconquista",
+    "handle": "recon_pt"
   },
   {
     "name": "Reconquête",
     "handle": "Reconquete_off"
   },
   {
+    "name": "RECONQUÊTE ! | Paris",
+    "handle": "reconqueteparis"
+  },
+  {
+    "name": "Reimond Hoffmann",
+    "handle": "ReimondHoffmann"
+  },
+  {
+    "name": "Reinhard Mixl",
+    "handle": "reinhardmixl"
+  },
+  {
+    "name": "Krzysztof Walczak",
+    "handle": "Rekonstrukteur"
+  },
+  {
     "name": "Renaud Camus",
     "handle": "RenaudCamus"
+  },
+  {
+    "name": "René Aust",
+    "handle": "Rene_Aust"
+  },
+  {
+    "name": "René Springer",
+    "handle": "Rene_Springer"
+  },
+  {
+    "name": "René Bochmann",
+    "handle": "ReneBochmannMdB"
+  },
+  {
+    "name": "Rene Dierkes",
+    "handle": "ReneDierkesAfD"
+  },
+  {
+    "name": "René Hein",
+    "handle": "ReneHein3"
+  },
+  {
+    "name": "René Lioret",
+    "handle": "renelioret"
+  },
+  {
+    "name": "Martin Renner",
+    "handle": "Renner_AfD"
+  },
+  {
+    "name": "Restore Britain",
+    "handle": "RestoreBritain"
+  },
+  {
+    "name": "Éléments",
+    "handle": "Revue_elements"
+  },
+  {
+    "name": "Krisis",
+    "handle": "RevueKrisis"
+  },
+  {
+    "name": "Revuelta",
+    "handle": "revuelta_es"
+  },
+  {
+    "name": "RicciardettiJ",
+    "handle": "ricciardettij"
+  },
+  {
+    "name": "Richard Spencer",
+    "handle": "RichardBSpencer"
+  },
+  {
+    "name": "Richard Graupner",
+    "handle": "RichardGraupner"
+  },
+  {
+    "name": "Marta Riera i Camps",
+    "handle": "riera64cm"
   },
   {
     "name": "Charles Rigault",
     "handle": "rigault_charles"
   },
   {
-    "name": "Riposte Laïque",
-    "handle": "RiposteLaique"
+    "name": "Ringo Mühlmann",
+    "handle": "rimuehl"
   },
   {
     "name": "Groupe RN BFC",
-    "handle": "rn_bfc"
+    "handle": "RN_BFC"
   },
   {
     "name": "RN_HauteVienne",
@@ -1348,12 +4424,28 @@
     "handle": "RN_Vosges"
   },
   {
+    "name": "RN06_officiel",
+    "handle": "rn06_officiel"
+  },
+  {
+    "name": "RN69_officiel",
+    "handle": "rn69_officiel"
+  },
+  {
     "name": "RN Île-de-France",
     "handle": "RNational_IDF"
   },
   {
+    "name": "RNational_NA",
+    "handle": "rnational_na"
+  },
+  {
     "name": "Rassemblement National",
     "handle": "RNational_off"
+  },
+  {
+    "name": "RNational77",
+    "handle": "rnational77"
   },
   {
     "name": "RN Grand Est",
@@ -1364,84 +4456,344 @@
     "handle": "RNJ_77"
   },
   {
+    "name": "RNJ Aube",
+    "handle": "rnj_aube"
+  },
+  {
+    "name": "RNJ_off",
+    "handle": "rnj_off"
+  },
+  {
+    "name": "RNJ 17",
+    "handle": "rnjeunesse_17"
+  },
+  {
     "name": "RN Var",
     "handle": "RNVar_officiel"
   },
   {
-    "name": "Eric Roche 🇫🇷 ⚜️🇨🇵🇨🇵",
-    "handle": "RocheteauDomin2"
+    "name": "Robin Jünger",
+    "handle": "rob_in_berlin"
+  },
+  {
+    "name": "Rob Roos",
+    "handle": "rob_roos"
+  },
+  {
+    "name": "Robert Farle",
+    "handle": "robert_farle"
+  },
+  {
+    "name": "Robert Lambrou",
+    "handle": "Robert_Lambrou"
+  },
+  {
+    "name": "Robert Eschricht",
+    "handle": "roberteschricht"
+  },
+  {
+    "name": "Roberto Kuhnert",
+    "handle": "RobertoKuhnert"
+  },
+  {
+    "name": "Robert Steuckers",
+    "handle": "RobertSteuckers"
+  },
+  {
+    "name": "Rodrigo Jiménez Revuelta",
+    "handle": "rodrijr111"
+  },
+  {
+    "name": "Roger Beckamp",
+    "handle": "RogerBeckamp"
+  },
+  {
+    "name": "Roland Magerl",
+    "handle": "Roland_Magerl"
+  },
+  {
+    "name": "Rolf Weigand",
+    "handle": "rolf_weigand"
+  },
+  {
+    "name": "Roman Reusch",
+    "handle": "Roman_Reusch"
+  },
+  {
+    "name": "Roman Khudyakov",
+    "handle": "RomanKhudyakov1"
+  },
+  {
+    "name": "Romualddu13",
+    "handle": "romualddu13"
+  },
+  {
+    "name": "Ronald Gläser",
+    "handle": "ronaldglaeser"
+  },
+  {
+    "name": "Ronny Kumpf",
+    "handle": "RonnyKumpf"
+  },
+  {
+    "name": "RouenPennelleRN",
+    "handle": "rouenpennellern"
   },
   {
     "name": "Béatrice Roullaud",
     "handle": "ROULLAUDBEATRIC"
   },
   {
-    "name": "RsaTeddyboy",
-    "handle": "RsaTeddyboy"
+    "name": "María de los Reyes Romero Vilches",
+    "handle": "rromerovilches"
   },
   {
     "name": "Raphaël Stainville",
     "handle": "rstainville"
   },
   {
+    "name": "Rody Tolassy",
+    "handle": "RTolassy"
+  },
+  {
+    "name": "Rubén Silvano Manso Olivar",
+    "handle": "rubenmansolivar"
+  },
+  {
+    "name": "Ruben Rupp",
+    "handle": "RubenRupp"
+  },
+  {
+    "name": "Mouvement national",
+    "handle": "RuchNarodowy"
+  },
+  {
+    "name": "Rüdiger Klos",
+    "handle": "RuedigerKlos"
+  },
+  {
+    "name": "María de la Cabeza Ruiz Solás",
+    "handle": "RuizSolas"
+  },
+  {
+    "name": "Rupert Lowe",
+    "handle": "RupertLowe10"
+  },
+  {
+    "name": "Rolf Wiedenhaupt",
+    "handle": "RWiedenhaupt"
+  },
+  {
     "name": "Sébastien Lignier",
     "handle": "S_Lignier"
+  },
+  {
+    "name": "Sebastian Münzenmaier",
+    "handle": "S_Muenzenmaier"
+  },
+  {
+    "name": "Sabine Barthel",
+    "handle": "SabineBarthel1"
+  },
+  {
+    "name": "Sadir Durmaz",
+    "handle": "sadirdurmaz"
+  },
+  {
+    "name": "Saffet Sancaklı",
+    "handle": "saffetsancakli"
+  },
+  {
+    "name": "Lucie Šafránková",
+    "handle": "safrankovaspd"
+  },
+  {
+    "name": "Lorrain de Saint Affrique",
+    "handle": "saintaff"
+  },
+  {
+    "name": "Sakari Puisto",
+    "handle": "SakariPuisto"
+  },
+  {
+    "name": "Sami Savio",
+    "handle": "SamiSavioFi"
   },
   {
     "name": "Samuel_Lafont",
     "handle": "Samuel_Lafont"
   },
   {
-    "name": "Sandrine Dogor Such 🇫🇷",
+    "name": "Sam van Rooy",
+    "handle": "SamvanRooy1"
+  },
+  {
+    "name": "Víctor Manuel Sánchez del Real",
+    "handle": "sanchezdelreal"
+  },
+  {
+    "name": "Sandra Moya Bolivar",
+    "handle": "SandraMoyaB"
+  },
+  {
+    "name": "Sandrine Dogor-Such",
     "handle": "Sandrine_Dogor"
   },
   {
-    "name": "Sarah176Israel",
-    "handle": "Sarah176Israel"
+    "name": "Sandro Scheer",
+    "handle": "sandro_scheer"
+  },
+  {
+    "name": "Sanna Antikainen",
+    "handle": "SannaAntikainen"
+  },
+  {
+    "name": "Santiago Abascal",
+    "handle": "Santi_ABASCAL"
   },
   {
     "name": "Sardoche",
     "handle": "Sardoche"
   },
   {
+    "name": "Carl Benjamin",
+    "handle": "Sargon_of_Akkad"
+  },
+  {
+    "name": "Saša Radulović",
+    "handle": "SasaRadulovich"
+  },
+  {
     "name": "Sophie Blanc",
     "handle": "sblanc66000"
+  },
+  {
+    "name": "Bernd Schattner",
+    "handle": "Schattner_MdB"
+  },
+  {
+    "name": "Stefan Scheil",
+    "handle": "ScheilDr"
+  },
+  {
+    "name": "Raimond Scheirich",
+    "handle": "scheirich_afd"
+  },
+  {
+    "name": "Sascha Schlösser",
+    "handle": "SchloesserRA"
+  },
+  {
+    "name": "Martin Schmidt",
+    "handle": "schmidtschwerin"
+  },
+  {
+    "name": "Jörg Schneider",
+    "handle": "Schneider_AfD"
+  },
+  {
+    "name": "Heiko Frank Scholz",
+    "handle": "Scholz_AfD"
+  },
+  {
+    "name": "Dimitri Schulz",
+    "handle": "SchulzAfD"
+  },
+  {
+    "name": "Doreen Schwietzer",
+    "handle": "SchwietzerMdL"
   },
   {
     "name": "Sébastien Humbert",
     "handle": "Seb_Humbert"
   },
   {
+    "name": "Sebastian Maack",
+    "handle": "sebastian_maack"
+  },
+  {
+    "name": "Sebastian Tynkkynen",
+    "handle": "SebastianTyne"
+  },
+  {
+    "name": "Sebastian Wippel",
+    "handle": "SebastianWippel"
+  },
+  {
     "name": "Sébastien Chenu",
     "handle": "sebchenu"
+  },
+  {
+    "name": "Jan Sedláček",
+    "handle": "Sedlacek_Jan"
+  },
+  {
+    "name": "Sefer Aycan",
+    "handle": "seferaycan"
+  },
+  {
+    "name": "Şefkat Çetin",
+    "handle": "sefkatcetin"
+  },
+  {
+    "name": "Juan Carlos Segura Just",
+    "handle": "SeguraJust"
   },
   {
     "name": "Serge Muller",
     "handle": "Serge_Muller24"
   },
   {
-    "name": "🇫🇷SERGE GIL 🇫🇷🇮🇱🎗️",
-    "handle": "SERGIL88349033"
+    "name": "Sergej Minich",
+    "handle": "SergejMinichAfD"
+  },
+  {
+    "name": "Sergi Fabri Llavero",
+    "handle": "SergiFabri"
+  },
+  {
+    "name": "Sergio Macián de Greef",
+    "handle": "sergio_macian"
+  },
+  {
+    "name": "Sermet Atay",
+    "handle": "SermetAtay"
+  },
+  {
+    "name": "Sevdagül Tunçer",
+    "handle": "SevdaGulTuncer"
+  },
+  {
+    "name": "Séverine Duminy",
+    "handle": "SeverineDuminy"
   },
   {
     "name": "Yves-Marie Sévillia",
     "handle": "SevilliaYves"
   },
   {
-    "name": "@SGurbuz__",
-    "handle": "SGurbuz__"
+    "name": "Seyfettin Yılmaz",
+    "handle": "seyfettinyilmaz"
   },
   {
-    "name": "shannasparkleof",
+    "name": "Shanna",
     "handle": "shannasparkleof"
   },
   {
-    "name": "Shannon Seban",
-    "handle": "ShannonSeban"
+    "name": "Song Si-in",
+    "handle": "sidoonge"
   },
   {
-    "name": "@Simao_rda",
-    "handle": "Simao_rda"
+    "name": "Siegbert Droese",
+    "handle": "SiegbertDroese"
+  },
+  {
+    "name": "Silke Schöps",
+    "handle": "silke_schoeps"
+  },
+  {
+    "name": "Vladimir Sipyagin",
+    "handle": "SipyaginV"
   },
   {
     "name": "Sirènes",
@@ -1452,32 +4804,152 @@
     "handle": "SJallamion"
   },
   {
-    "name": "@sociologuelvl99",
+    "name": "Scott Benton",
+    "handle": "SL_Benton"
+  },
+  {
+    "name": "Sławomir Mentzen",
+    "handle": "slawomirmentzen"
+  },
+  {
+    "name": "Sébastien Meurant",
+    "handle": "smeurantl"
+  },
+  {
+    "name": "Le Sociologue",
     "handle": "sociologuelvl99"
   },
   {
-    "name": "🇫🇷 Souveraineté. Démocratie.",
-    "handle": "SouveraineteFra"
+    "name": "Sophie Vaginay-Ricourt",
+    "handle": "SophieVaginay"
+  },
+  {
+    "name": "Christophe SOUSTELLE",
+    "handle": "soustellechris"
+  },
+  {
+    "name": "Marcus Spiegelberg",
+    "handle": "spiegelbergafd"
+  },
+  {
+    "name": "Pieter De Spiegeleer",
+    "handle": "spiegeleer13"
   },
   {
     "name": "Stanislas Rigault",
     "handle": "stanislasrig"
   },
   {
+    "name": "Steeve Briois",
+    "handle": "SteeveBriois"
+  },
+  {
+    "name": "Stefaan Sintobin",
+    "handle": "StefaanSintobin"
+  },
+  {
+    "name": "Stefan Löw",
+    "handle": "Stefan_Loew_MdL"
+  },
+  {
+    "name": "Stefan Henze",
+    "handle": "StefanHenz15180"
+  },
+  {
+    "name": "Stefan Keuter",
+    "handle": "StefanKeuterAfD"
+  },
+  {
+    "name": "Stefan Molyneux",
+    "handle": "StefanMolyneux"
+  },
+  {
+    "name": "Stefano Maullu",
+    "handle": "stefanomaullu"
+  },
+  {
+    "name": "Steffen Janich",
+    "handle": "steffen_janich"
+  },
+  {
+    "name": "Steffen Kotré",
+    "handle": "SteffenKotre"
+  },
+  {
+    "name": "Erika Steinbach",
+    "handle": "SteinbachErika"
+  },
+  {
     "name": "Steph Sainte Marie",
     "handle": "steph16656"
   },
   {
-    "name": "Stéphane Rambaud",
-    "handle": "stephan1Rambaud"
+    "name": "Stéphane Ravier",
+    "handle": "stephane_ravier"
+  },
+  {
+    "name": "Stéphanie Gayet",
+    "handle": "StephanieGayet"
+  },
+  {
+    "name": "Steven Creyelman",
+    "handle": "StevenCreyelman"
+  },
+  {
+    "name": "Joachim Steyer",
+    "handle": "SteyerAfD"
+  },
+  {
+    "name": "PAS DE MIGRANTS DANS NOS CAMPAGNES",
+    "handle": "stoprepartition"
+  },
+  {
+    "name": "Herbert Strotebeck",
+    "handle": "Strotebeck_AfD"
+  },
+  {
+    "name": "Stanisław Tyszka",
+    "handle": "styszka"
+  },
+  {
+    "name": "Subjekt",
+    "handle": "subjektno"
+  },
+  {
+    "name": "Sven von Storch",
+    "handle": "SvenStorch"
+  },
+  {
+    "name": "Sven Wendorf",
+    "handle": "SvenWendorf"
+  },
+  {
+    "name": "Stefaan Van Hecke",
+    "handle": "SVHecke"
   },
   {
     "name": "SwordOfSalomon",
     "handle": "SwordOfSalomon"
   },
   {
+    "name": "Oleksandr Symshyshyn",
+    "handle": "symchyshyn_s"
+  },
+  {
     "name": "Timothée Houssin",
     "handle": "T_Houssin"
+  },
+  {
+    "name": "Tache_Emmanuel",
+    "handle": "tache_emmanuel"
+  },
+  {
+    "name": "Céline Tacher",
+    "handle": "tacherceline"
+  },
+  {
+    "name": "Tanguy David",
+    "handle": "tanguy_france"
   },
   {
     "name": "TatianaVentose",
@@ -1488,16 +4960,24 @@
     "handle": "TaverneMichael"
   },
   {
-    "name": "TBT9_W9",
-    "handle": "TBT9_W9"
+    "name": "Thibaut de La Tocnaye",
+    "handle": "TdlTocnaye"
   },
   {
     "name": "Erik Tegnér",
     "handle": "tegnererik"
   },
   {
+    "name": "María Teresa López Álvarez",
+    "handle": "TeresaGdVinuesa"
+  },
+  {
     "name": "Thierry TESSON Ⓜ️",
     "handle": "Tesson59"
+  },
+  {
+    "name": "Teuvo Hakkarainen",
+    "handle": "TeuvoHakkaraine"
   },
   {
     "name": "Théo Bernhardt",
@@ -1508,8 +4988,36 @@
     "handle": "ThaisEscufon"
   },
   {
+    "name": "Lauren Chen",
+    "handle": "TheLaurenChen"
+  },
+  {
+    "name": "Ethan Ralph",
+    "handle": "TheRalphRetort"
+  },
+  {
+    "name": "The Reclaim Party",
+    "handle": "thereclaimparty"
+  },
+  {
+    "name": "David Freiheit",
+    "handle": "thevivafrei"
+  },
+  {
+    "name": "Thomas Ferrier",
+    "handle": "ThFerrier"
+  },
+  {
     "name": "Thierry Frappé",
     "handle": "thierry_frappe"
+  },
+  {
+    "name": "Thierry Baudet",
+    "handle": "thierrybaudet"
+  },
+  {
+    "name": "Thierry Coudert",
+    "handle": "thierrycoudert"
   },
   {
     "name": "Thierry Mariani",
@@ -1520,44 +5028,196 @@
     "handle": "thierryperez43"
   },
   {
+    "name": "Mette Thiesen",
+    "handle": "thiesenmette"
+  },
+  {
+    "name": "Thomas Ehrhorn",
+    "handle": "Thomas_Ehrhorn"
+  },
+  {
     "name": "Thomas Ménagé",
     "handle": "Thomas_Mng"
   },
   {
-    "name": "Thomas Bonnet",
-    "handle": "ThomasBonnet"
+    "name": "Thomas Thumm",
+    "handle": "thomas_thumm"
   },
   {
-    "name": "Thomas Rousseau",
-    "handle": "ThomasR2020"
+    "name": "Thomas Dietz",
+    "handle": "ThomasDietz_MdB"
+  },
+  {
+    "name": "Thomas Fetsch",
+    "handle": "ThomasF70168477"
+  },
+  {
+    "name": "Thomas Ladzinski",
+    "handle": "ThomasLadzinski"
+  },
+  {
+    "name": "Thomas Reich",
+    "handle": "ThomasReichAfD"
+  },
+  {
+    "name": "Thomas Röckemann",
+    "handle": "thomasroecke"
+  },
+  {
+    "name": "Thore Stein",
+    "handle": "ThoreStein"
   },
   {
     "name": "Tiffany Joncour",
     "handle": "Tiffany_Joncour"
   },
   {
-    "name": "@tomvangrieken",
+    "name": "Tiina Elovaara",
+    "handle": "TiinaElovaara"
+  },
+  {
+    "name": "Tino Chrupalla",
+    "handle": "tino_chrupalla"
+  },
+  {
+    "name": "Tamer Osmanağaoğlu",
+    "handle": "TmrOsmanagaoglu"
+  },
+  {
+    "name": "Tobias Peterka",
+    "handle": "TobiasMPeterka"
+  },
+  {
+    "name": "Tobias Teich",
+    "handle": "tobiasteich_by"
+  },
+  {
+    "name": "Tobias Ebenberger",
+    "handle": "TobiBergerNRW"
+  },
+  {
+    "name": "Tomasz Froelich",
+    "handle": "TomaszFroelich"
+  },
+  {
+    "name": "Gabriel Tomatis",
+    "handle": "tomatis_gabriel"
+  },
+  {
+    "name": "Tomio Okamura",
+    "handle": "tomio_cz"
+  },
+  {
+    "name": "Tommy Tabor",
+    "handle": "tommytabor"
+  },
+  {
+    "name": "Tom Packalén",
+    "handle": "TomPackalen"
+  },
+  {
+    "name": "Tom Vandendriessche",
+    "handle": "TomVandendriese"
+  },
+  {
+    "name": "Tom Van Grieken",
     "handle": "tomvangrieken"
+  },
+  {
+    "name": "Antonio Ramón López Gómez",
+    "handle": "tonilopez_Vox"
+  },
+  {
+    "name": "TonyBonalair",
+    "handle": "tonybonalair"
+  },
+  {
+    "name": "Torben Braga",
+    "handle": "torben_braga"
+  },
+  {
+    "name": "Cristian Toro",
+    "handle": "toro_ct7"
+  },
+  {
+    "name": "László Toroczkai",
+    "handle": "ToroczkaiLaszlo"
   },
   {
     "name": "Cyril Tribuiani",
     "handle": "TribuianiCyril"
   },
   {
+    "name": "Tommy Robinson",
+    "handle": "TRobinsonNewEra"
+  },
+  {
     "name": "TrumpDailyPosts",
     "handle": "TrumpDailyPosts"
+  },
+  {
+    "name": "Paolo Truzzu",
+    "handle": "truzzu"
   },
   {
     "name": "TV Libertés",
     "handle": "tvlofficiel"
   },
   {
-    "name": "@TwitchGauchiste",
+    "name": "TwitchGauchiste",
     "handle": "TwitchGauchiste"
+  },
+  {
+    "name": "Sven Tritschler",
+    "handle": "twittschler"
+  },
+  {
+    "name": "Tyler Kurtis Johnson",
+    "handle": "Tyler4Restore"
+  },
+  {
+    "name": "Carsten Ubbelohde",
+    "handle": "UbbelohdeBerlin"
+  },
+  {
+    "name": "Olivier Ubéda",
+    "handle": "UbOliver"
+  },
+  {
+    "name": "Udo Hemmelgarn",
+    "handle": "UdoHemmelgarn"
+  },
+  {
+    "name": "Udo Stein",
+    "handle": "udostein_mdl"
+  },
+  {
+    "name": "Uwe Felgenträger",
+    "handle": "UFelgentrager"
   },
   {
     "name": "Irréductible Athée",
     "handle": "UIAthee"
+  },
+  {
+    "name": "Ulrich Oehme",
+    "handle": "Ulrich_Oehme"
+  },
+  {
+    "name": "Ulrich Siegmund",
+    "handle": "UlrichSiegmund"
+  },
+  {
+    "name": "Ulrike Schielke-Ziesing",
+    "handle": "ulschzi"
+  },
+  {
+    "name": "İzzet Ulvi Yönter",
+    "handle": "UlviYonter"
+  },
+  {
+    "name": "Ümit Özdağ",
+    "handle": "umitozdag"
   },
   {
     "name": "UNI Lyon",
@@ -1568,16 +5228,44 @@
     "handle": "unibordeaux"
   },
   {
+    "name": "UNI Lille",
+    "handle": "unilille_"
+  },
+  {
     "name": "Unione di i Patriotti",
     "handle": "Unionepatriotti"
+  },
+  {
+    "name": "The Unz Review",
+    "handle": "UnzReview"
+  },
+  {
+    "name": "Alessandro Urzì",
+    "handle": "urziale"
+  },
+  {
+    "name": "Uwe Thrum",
+    "handle": "UThrum"
+  },
+  {
+    "name": "Uwe Schulz",
+    "handle": "Uwe_Schulz_AfD"
   },
   {
     "name": "Virginie Joron",
     "handle": "v_joron"
   },
   {
-    "name": "Valek_Maranaj",
-    "handle": "Valek_Maranaj"
+    "name": "Volker Schnurrbusch",
+    "handle": "V_Schnurrbusch"
+  },
+  {
+    "name": "Ville Vähämäki",
+    "handle": "Vahamaki"
+  },
+  {
+    "name": "Antoine Valentin",
+    "handle": "Valentin_Antoi"
   },
   {
     "name": "Valérie Deloge",
@@ -1592,24 +5280,68 @@
     "handle": "VAplus_"
   },
   {
-    "name": "VB_Officiel",
-    "handle": "VB_Officiel"
+    "name": "Renaissance",
+    "handle": "vazrazhdane"
+  },
+  {
+    "name": "VDARE",
+    "handle": "vdare"
+  },
+  {
+    "name": "Veijo Niemi",
+    "handle": "veijoniemi1"
+  },
+  {
+    "name": "Kyriákos Velópoulos",
+    "handle": "velopky"
+  },
+  {
+    "name": "Vengeance patriote",
+    "handle": "vengeance_p"
   },
   {
     "name": "Véronique Jacquier",
     "handle": "Vero_Jacquier"
   },
   {
+    "name": "Víctor Guido González Coello de Portugal",
+    "handle": "vicpiedra"
+  },
+  {
     "name": "Victor Lefebvre",
     "handle": "VictorLefebvre"
+  },
+  {
+    "name": "Vilhelm Junnila",
+    "handle": "vilhelmjunnila"
+  },
+  {
+    "name": "Mike Fonseca",
+    "handle": "VillaFonseca"
+  },
+  {
+    "name": "Rafael Villafranca Mercé",
+    "handle": "VillafrancaRafa"
   },
   {
     "name": "Antoine Villedieu",
     "handle": "villedieu_a"
   },
   {
+    "name": "Ville Tavio",
+    "handle": "VilleTavio"
+  },
+  {
+    "name": "Martin Vincentz",
+    "handle": "Vincentz_AfD"
+  },
+  {
     "name": "Vincent Lapierre",
     "handle": "VincLapierre"
+  },
+  {
+    "name": "Vivien Rottstedt",
+    "handle": "VivienRottstedt"
   },
   {
     "name": "Vivre Français",
@@ -1624,24 +5356,176 @@
     "handle": "VltnGR"
   },
   {
+    "name": "Union panukrainienne « Liberté »",
+    "handle": "vo_svoboda"
+  },
+  {
+    "name": "Bernd Vohl",
+    "handle": "VohlBernd"
+  },
+  {
+    "name": "volga  Droite",
+    "handle": "volga207"
+  },
+  {
+    "name": "Volker Münz",
+    "handle": "volker_munz"
+  },
+  {
+    "name": "Volker Nothing",
+    "handle": "volkernothing"
+  },
+  {
+    "name": "Volker Olenicak",
+    "handle": "VolkerOlenicak"
+  },
+  {
+    "name": "Wilhelm von Gottberg",
+    "handle": "vonGottberg_AfD"
+  },
+  {
+    "name": "Vox",
+    "handle": "vox_es"
+  },
+  {
+    "name": "Vyacheslav Maltsev",
+    "handle": "vvmaltsev"
+  },
+  {
+    "name": "Markus Wagner",
+    "handle": "wagner_afd"
+  },
+  {
+    "name": "Alexis Wagram",
+    "handle": "wagramalexis"
+  },
+  {
+    "name": "Waldemar Herdt",
+    "handle": "WaldemarHerdt"
+  },
+  {
     "name": "Wandrille de Guerpel",
     "handle": "wdeguerpel"
+  },
+  {
+    "name": "Wallerand de Saint-Just",
+    "handle": "wdesaintjust"
+  },
+  {
+    "name": "Ralph Weber",
+    "handle": "WeberProf"
+  },
+  {
+    "name": "Sebastian Weber",
+    "handle": "weichreite"
+  },
+  {
+    "name": "Mathias Weiser",
+    "handle": "WeiserMathias"
+  },
+  {
+    "name": "Thorsten Weiß",
+    "handle": "WeissAfD"
+  },
+  {
+    "name": "Wendy Lonchampt",
+    "handle": "WendyLonchampt"
+  },
+  {
+    "name": "WhiteDate",
+    "handle": "whitedatenet"
+  },
+  {
+    "name": "Alexander Wiesner",
+    "handle": "wiesnerleipzig"
+  },
+  {
+    "name": "Wilko Möller",
+    "handle": "Wilko_Moeller"
+  },
+  {
+    "name": "Wille Rydman",
+    "handle": "willerydman"
+  },
+  {
+    "name": "Przemysław Wipler",
+    "handle": "wipler"
+  },
+  {
+    "name": "Wiebke Muhsal",
+    "handle": "WMuhsal"
+  },
+  {
+    "name": "Wolfgang Wiehle",
+    "handle": "WolfgangWiehle"
+  },
+  {
+    "name": "Karsten Woldeit",
+    "handle": "Wollihood"
+  },
+  {
+    "name": "Wouter Ravenshorst",
+    "handle": "woody_raven"
+  },
+  {
+    "name": "WorldNetDaily",
+    "handle": "worldnetdaily"
+  },
+  {
+    "name": "Wouter Vermeersch",
+    "handle": "WouterVermeersc"
+  },
+  {
+    "name": "Wojciech Wierzejski",
+    "handle": "WWierzejski"
+  },
+  {
+    "name": "Stop Islamisation of Norway",
+    "handle": "wwwSIANno"
+  },
+  {
+    "name": "Wybren van Haga",
+    "handle": "wybrenvanhaga"
+  },
+  {
+    "name": "Xavier Caïtucoli",
+    "handle": "xcaitucoli"
   },
   {
     "name": "Yaël Ménaché",
     "handle": "YaelMenache"
   },
   {
+    "name": "Yair Netanyahu",
+    "handle": "yairnetanyahu"
+  },
+  {
+    "name": "Yann Bompard",
+    "handle": "YannBompard"
+  },
+  {
     "name": "Yann Montero",
     "handle": "YannMontero"
   },
   {
-    "name": "Yoann Gillet",
-    "handle": "YoannGillet30"
+    "name": "Yaşar Yıldırım",
+    "handle": "yasaryldrmMHP"
   },
   {
-    "name": "Yoann Usai",
-    "handle": "YOANNUSAI"
+    "name": "Yücel Bulut",
+    "handle": "yclblt06"
+  },
+  {
+    "name": "Feti Yıldız",
+    "handle": "YildizFeti"
+  },
+  {
+    "name": "Yishai Fleisher",
+    "handle": "YishaiFleisher"
+  },
+  {
+    "name": "Yoann Gillet",
+    "handle": "YoannGillet30"
   },
   {
     "name": "Yohan Pawer",
@@ -1652,19 +5536,51 @@
     "handle": "yona_faedda"
   },
   {
-    "name": "La minute info",
-    "handle": "yt_LaMinuteInfo"
+    "name": "Yoshiko Sakurai",
+    "handle": "YoshikoSakurai"
   },
   {
-    "name": "Z4bivaka",
-    "handle": "Z4bivaka"
+    "name": "Toshiaki Yoshino",
+    "handle": "yoshirin100"
+  },
+  {
+    "name": "Yvan Benedetti",
+    "handle": "Yvan_Benedetti"
+  },
+  {
+    "name": "Zdeněk Kettner",
+    "handle": "z_kettner"
+  },
+  {
+    "name": "Parti de la Victoire (Zafer Partisi)",
+    "handle": "zaferpartisi"
+  },
+  {
+    "name": "Christian Zaum",
+    "handle": "ZaumChrist"
+  },
+  {
+    "name": "Grigor Zdravkov",
+    "handle": "ZdravkovGr30904"
   },
   {
     "name": "Éric Zemmour",
     "handle": "ZemmourEric"
   },
   {
-    "name": "@Zu_Demir",
-    "handle": "Zu_Demir"
+    "name": "ZemmourTV",
+    "handle": "zemmourtv"
+  },
+  {
+    "name": "Zero Hedge",
+    "handle": "zerohedge"
+  },
+  {
+    "name": "Zihni Açba",
+    "handle": "ZihniAcba"
+  },
+  {
+    "name": "Zuerst!",
+    "handle": "zuerst_magazin"
   }
 ]

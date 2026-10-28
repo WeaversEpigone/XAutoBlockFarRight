@@ -2,13 +2,13 @@
 // @name         Blockfacho auto-block (X)
 // @namespace    https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
-// @version      0.8.0
+// @version      0.8.1
 // @description  Récupère la liste vérifiée de blockfacho (copie GitHub mise à jour toutes les 6 h) et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
 // @grant        GM_setValue
-// @connect      blockfacho.readymoss8.chatgpt.site
+// @connect      onbloquelextremedroite.fun
 // @connect      raw.githubusercontent.com
 // @run-at       document-idle
 // @license      MIT
@@ -17,7 +17,7 @@
 (() => {
   'use strict';
 
-  const SITE = 'https://blockfacho.readymoss8.chatgpt.site';
+  const SITE = 'https://onbloquelextremedroite.fun';
   // copy of the list kept by the repo's GitHub Action (every 6 h); main source, the live site is the backup
   const REPO_LIST = 'https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main';
   const DELAY_MS = [4000, 8000];     // random pause between two profiles; X locks accounts that block too fast

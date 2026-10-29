@@ -2,13 +2,12 @@
 // @name         Blockfacho auto-block (X)
 // @namespace    https://github.com/WeaversEpigone/XAutoBlockFarRight
 // @homepageURL  https://github.com/WeaversEpigone/XAutoBlockFarRight
-// @version      0.8.1
-// @description  Récupère la liste vérifiée de blockfacho (copie GitHub mise à jour toutes les 6 h) et bloque les comptes X un par un, dans ta propre session.
+// @version      0.9.0
+// @description  Charge la liste de comptes du dépôt GitHub (reprise de blockfacho, figée au 28/10/2026) et bloque les comptes X un par un, dans ta propre session.
 // @match        https://x.com/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
 // @grant        GM_setValue
-// @connect      onbloquelextremedroite.fun
 // @connect      raw.githubusercontent.com
 // @run-at       document-idle
 // @license      MIT
@@ -17,8 +16,7 @@
 (() => {
   'use strict';
 
-  const SITE = 'https://onbloquelextremedroite.fun';
-  // copy of the list kept by the repo's GitHub Action (every 6 h); main source, the live site is the backup
+  // the list lives in this repo; blockfacho stopped publishing its full list on 28/10/2026
   const REPO_LIST = 'https://raw.githubusercontent.com/WeaversEpigone/XAutoBlockFarRight/main';
   const DELAY_MS = [4000, 8000];     // random pause between two profiles; X locks accounts that block too fast
   // X's own test ids; if X renames them the script stops instead of clicking blindly
@@ -45,7 +43,7 @@
     });
   }
 
-  function fetchText(path, base = SITE) {
+  function fetchText(path, base = REPO_LIST) {
     return new Promise((resolve, reject) => GM_xmlhttpRequest({
       method: 'GET', url: base + path, headers: { 'Cache-Control': 'no-store' }, timeout: 20000,
       ontimeout: () => reject(new Error(path + ' timeout')),
@@ -60,40 +58,13 @@
     return m && !RESERVED.has(m[1].toLowerCase()) ? m[1] : null;
   };
 
-  // Same merge as the site's swipe.js: static accounts.js + approved entries, minus approved removals.
-  async function loadHandles() {
-    const js = await fetchText('/accounts.js');
-    const accounts = JSON.parse(js.slice(js.indexOf('['), js.lastIndexOf(']') + 1));
-    const api = JSON.parse(await fetchText('/api/accounts'));
-    if (!Array.isArray(api.entries)) throw new Error('format /api/accounts inattendu');
-
-    const removed = new Set(api.entries.filter(e => e.type === 'removal').map(e => String(e.target_id || '').toLowerCase()));
-    const byKey = new Map();
-    for (const a of accounts) if (a.handle) byKey.set(a.handle.toLowerCase(), { name: a.name, handle: a.handle });
-    for (const e of api.entries) {
-      if (e.type === 'removal' || e.platform !== 'x') continue;
-      const h = handleFromUrl(e.profile_url);
-      if (!h) continue;
-      const key = String(e.type === 'new' ? e.id : e.target_id).toLowerCase();
-      byKey.set(key, { name: e.name, handle: h });
-    }
-    const seen = new Set(), out = [];
-    for (const [key, a] of byKey) {
-      const h = a.handle.toLowerCase();
-      if (removed.has(key) || removed.has(h) || seen.has(h)) continue;
-      seen.add(h);
-      out.push(a);
-    }
-    return out;
-  }
-
-  // The fallback file comes from the network too: keep only well-formed entries.
-  function parseFallback(text) {
+  // The list file comes from the network: keep only well-formed entries.
+  function parseList(text) {
     const list = JSON.parse(text);
-    if (!Array.isArray(list)) throw new Error('copie GitHub illisible');
+    if (!Array.isArray(list)) throw new Error('liste GitHub illisible');
     const out = list.filter(a => a && typeof a.handle === 'string' && /^[A-Za-z0-9_]{1,15}$/.test(a.handle) && !RESERVED.has(a.handle.toLowerCase()))
       .map(a => ({ name: String(a.name || a.handle).slice(0, 100), handle: a.handle }));
-    if (!out.length) throw new Error('copie GitHub vide');
+    if (!out.length) throw new Error('liste GitHub vide');
     return out;
   }
 
@@ -193,13 +164,8 @@
     status('Chargement…');
     try {
       const before = get('queue', []).length;
-      let list, note = '';
-      try { list = parseFallback(await fetchText('/list/x.json', REPO_LIST)); }
-      catch (e) {
-        list = await loadHandles();
-        note = `Copie GitHub indisponible (${e.message}) : liste lue directement sur le site. `;
-      }
-      set('queue', mergeQueue(list));
+      let note = '';
+      set('queue', mergeQueue(parseList(await fetchText('/list/x.json'))));
       showQueue();
       const added = get('queue', []).length - before;
       if (before && added > 0) note += `${added} nouveaux comptes ajoutés à la fin. `;

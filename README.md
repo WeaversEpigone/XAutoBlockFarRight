@@ -1,9 +1,9 @@
 # Blockfacho auto-block (X)
 
-Bloque automatiquement sur X tous les comptes de la liste vérifiée [blockfacho](https://onbloquelextremedroite.fun/), depuis ton navigateur, avec ton compte.
+Bloque automatiquement sur X les comptes de la liste de ce dépôt, reprise de [blockfacho](https://onbloquelextremedroite.fun/), depuis ton navigateur, avec ton compte.
 
 - **Aucun mot de passe, aucun token.** Le script clique sur le vrai bouton « Bloquer » de X, dans ta session.
-- **Liste à jour.** Le script lit la copie de ce dépôt, mise à jour depuis le site toutes les 6 h (ajouts et retraits validés). Si GitHub ne répond pas, il lit le site directement.
+- **1 396 comptes X.** La liste vient de ce dépôt ; elle est figée au 28/10/2026 (voir plus bas).
 - **Reprend où tu t'es arrêté.** Les comptes déjà bloqués sont sautés, et les nouveaux arrivent à la fin.
 
 ## Installer (2 min)
@@ -23,7 +23,7 @@ Pour essayer sans rien bloquer : coche **Test** avant **Démarrer**, le script v
 
 | Besoin | Que faire |
 | --- | --- |
-| La liste a grandi | **Charger la liste** puis **Démarrer** : seuls les nouveaux comptes restent à faire. |
+| La liste a changé | **Charger la liste** puis **Démarrer** : seuls les nouveaux comptes restent à faire. |
 | Changer de navigateur ou d'ordi | Note le « Dernier bloqué : n° X » et mets X + 1 dans **Commencer à**. |
 | Reprendre à partir d'un compte précis | Tape son `@` (ou colle le lien du profil) dans **Commencer à**. |
 | Reprendre après un arrêt | **Démarrer** suffit, rien n'est refait. |
@@ -34,7 +34,12 @@ Pour essayer sans rien bloquer : coche **Test** avant **Démarrer**, le script v
 
 ## La liste dans ce dépôt
 
-[`list/x.txt`](list/x.txt) et [`list/x.json`](list/x.json) sont une copie de la liste, mise à jour toutes les 6 h par [une GitHub Action](.github/workflows/update-list.yml). L'historique des commits montre qui a été ajouté ou retiré, et quand. C'est cette copie que le script charge. Si le site est en panne, l'Action garde la dernière liste valide.
+[`list/x.json`](list/x.json) (et [`list/x.txt`](list/x.txt), un @ par ligne) est la liste que le script charge.
+
+> [!NOTE]
+> **Liste figée au 28/10/2026.** Le site blockfacho ne publie plus sa liste complète : il distribue désormais les profils au compte-gouttes, derrière une vérification anti-robot. La liste de ce dépôt n'est donc plus mise à jour automatiquement. Elle le sera de nouveau si le site propose un export officiel.
+
+L'historique des commits montre qui a été ajouté ou retiré, et quand.
 
 ## Si ça casse
 
@@ -43,9 +48,9 @@ X change parfois son interface. Le script s'arrête alors avec un message au lie
 ## Développer
 
 ```bash
-node scripts/update-list.js       # régénère list/ depuis le site
-mkdir -p data && curl -s -o data/accounts.js https://onbloquelextremedroite.fun/accounts.js && curl -s -o data/accounts https://onbloquelextremedroite.fun/api/accounts
-node scripts/test-load.js data    # vérifie la fusion de la liste et l'ordre de reprise
+node scripts/test.js   # vérifie list/ et la logique du panneau
 ```
+
+Pour modifier la liste : édite `list/x.json` et `list/x.txt` ensemble, lance le test, puis commit.
 
 Licence [MIT](LICENSE). Projet indépendant, sans lien avec X ni avec le site blockfacho.

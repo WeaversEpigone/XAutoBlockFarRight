@@ -1,6 +1,0 @@
-version: 2
-updates:
-  - package-ecosystem: github-actions   # keeps the pinned actions/checkout SHA up to date
-    directory: /
-    schedule:
-      interval: monthly
